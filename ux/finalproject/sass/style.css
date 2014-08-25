@@ -1,0 +1,399 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {
+    font-family: 'BebasRegular';
+    width: 100%;
+    height: 100%;
+}
+
+.navigation {
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+}
+
+.navigation li {
+    color: #333333;
+    display: block;
+    padding: 0 10px;
+    line-height: 30px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    -webkit-transition: all .2s ease-in-out;
+    border-bottom: 1px solid black;
+    text-align: left;
+    width: 53px;
+}
+
+.navigation li:hover,.active {
+    font-size: 25px;
+    cursor: pointer;
+    width: 100px!important;
+}
+
+.envatologo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 446px;
+    margin-top: -41px;
+    margin-left: -223px;
+    z-index: 1;
+}
+
+.slide {
+	/*background-attachment: fixed;*/
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-shadow: inset 0px 10px 10px rgba(0,0,0,0.3);
+}
+
+.wrapper {
+    width: 960px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.slideno {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgba(255,255,255,0.3);
+}
+
+.button {
+    display: block;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    background-color: #333333;
+    background-image: url(../images/arrow.png);
+}
+
+.button:hover {
+    background-color: #494949;
+    cursor: pointer;
+}
+
+/******************************
+ SLIDE 1 
+*******************************/
+#slide1 {
+    background-color: #5c9900;
+}
+
+
+
+
+/******************************
+ SLIDE 2 
+*******************************/
+#slide2 {
+    background-color: #005c99;
+}
+
+#slide2 img:first-child {
+    position: absolute;
+    top: 700px;
+    left: -150px;
+}
+
+#slide2 img:nth-child(2) {
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+
+#slide2 img:nth-child(3) {
+    position: absolute;
+    top: 600px;
+    left: 300px;
+}
+
+#slide2 img:nth-child(4) {
+    position: absolute;
+    top: 400px;
+    left: 300px;
+}
+
+#slide2 img:nth-child(5) {
+    position: absolute;
+    top: 600px;
+    right: 300px;
+}
+
+#slide2 img:nth-child(6) {
+    position: absolute;
+    top: 600px;
+    right: 300px;
+}
+
+#slide2 img:nth-child(7) {
+    position: absolute;
+    top: 400px;
+    right: 100px;
+}
+
+#slide2 img:nth-child(8) {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+}
+/******************************
+ SLIDE 3 
+*******************************/
+#slide3 {
+    background-color: #b6c10b;
+}
+
+#slide3 img:first-child {
+    position: absolute;
+    top: 700px;
+    left: 300px;
+}
+
+#slide3 img:nth-child(2) {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#slide3 img:nth-child(3) {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+}
+
+#slide3 img:nth-child(4) {
+    position: absolute;
+    top: 450px;
+    left: 300px;
+}
+
+#slide3 img:nth-child(5) {
+    position: absolute;
+    top: 200px;
+    right: 300px;
+}
+
+#slide3 img:nth-child(6) {
+    position: absolute;
+    top: 100px;
+    right: 300px;
+}
+/******************************
+ SLIDE 4 
+*******************************/
+
+#slide4 {
+    background-image: url(../images/Slide4/desktop4.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#slide4 .parallaxbg {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 28px;
+    color: rgba(51,51,51,0.3);
+}
+
+
+
+/******************************
+ Custom
+ *******************************/
+
+
+h2 {
+    font-family: Open Sans, George;
+    font-size: 40px;
+}
+
+.slide {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: Lato;
+    color: #fff;
+    position: relative;
+    padding-left: 5%;
+}
+
+strong {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.1em;
+}
+
+.navigation {
+    display: none;
+}
+
+
+/******************************
+ MAIN 
+*******************************/
+#main {
+    background-image: url(../images/background/main.jpg);
+}
+
+#main #description {
+    width: 50%;
+    min-width: 415px;
+    top: 30%;
+    position: relative;
+}
+
+#survey {
+    background-image: url(../images/background/survey.jpg);
+}
+
+#survey .circle {
+    font-family: Lato;
+    font-size: 60px;
+    color: #384466;
+    float: left;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-color: #fff;
+	/*border: 1px solid #fff;*/
+    background-color: #fff;
+	/* width and height can be anything, as long as they're equal */	
+
+	display: -webkit-flexbox;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	text-align: center;
+}
+
+#survey .subtitle {
+	position: absolute;
+	top: 175px;
+
+	display: -webkit-flexbox;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	text-align: center;	
+}
+
+#survey .circle span {
+	margin: auto;
+}
+
+#survey h2 {
+	float: left;
+	margin-left: 10px;
+	font-size: 60px;
+}
+
+.stat_container {
+	position: absolute;
+	top: 300px;
+	width: 600px;
+}
+
+.speech_module {
+	float: left;
+	margin-right: 20px;
+
+}
+
+.speech
+{
+	color: #384466;
+	position: relative;
+	width: 120px;
+	height: 100px;
+	padding: 10px;
+	/*line-height: 100px;*/
+	background-color: #fff;
+	/*border: 8px solid #666;*/
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	/*-webkit-box-shadow: 2px 2px 4px #888;*/
+	/*-moz-box-shadow: 2px 2px 4px #888;*/
+	/*box-shadow: 2px 2px 4px #888;*/
+		display: flex;
+	-webkit-flex-align: center;
+		align-items: center;
+	text-align: left;		
+}
+
+.speech:before
+{
+/*	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 30px;
+	top: 100px;
+	border: 25px solid;
+	border-color: #666 transparent transparent #666;*/
+}
+
+.speech:after
+{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 38px;
+	top: 120px;
+	border: 15px solid;
+	border-color: #fff transparent transparent #fff;
+}
+
+#competitoranaylsis {
+	background-image:url(../images/background/competitoranalysis.jpg);	
+}
+
+#persona {
+	background-color: #57618e;
+}
+
+#userflow {
+	background-image:url(../images/background/userflow.jpg);	
+}
+
+#usability_1 {
+	background-image:url(../images/background/usability_1.jpg);	
+}
+
+#wireframe_1 {
+	background-image:url(../images/background/wireframe_1.jpg);	
+}
+
+#usability_2 {
+	background-image:url(../images/background/usability_2.jpg);	
+}
+
+#conclusion {
+	background-color:#353b42;
+}
+
+
