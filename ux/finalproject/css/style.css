@@ -519,7 +519,7 @@ html, body {
     padding: 0px;
     margin-top: 10px;
   }
-  /* line 488, ../sass/style.scss */
+  /* line 489, ../sass/style.scss */
   #competitiveanaylsis ul li {
     list-style-type: none;
     font-size: 20px;
@@ -537,58 +537,62 @@ html, body {
     align-items: center;
     text-align: center;
   }
-  /* line 497, ../sass/style.scss */
+  /* line 498, ../sass/style.scss */
   #competitiveanaylsis ul li.thumbup {
     background-position: 0 0;
   }
-  /* line 501, ../sass/style.scss */
+  /* line 502, ../sass/style.scss */
   #competitiveanaylsis ul li.thumbdown {
     background-position: 0 -70px;
   }
 
-  /* line 512, ../sass/style.scss */
+  /* line 513, ../sass/style.scss */
   #persona {
     background-color: #57618e;
   }
-  /* line 515, ../sass/style.scss */
+  /* line 516, ../sass/style.scss */
   #persona .persona {
     min-height: 300px;
   }
-  /* line 517, ../sass/style.scss */
+  /* line 518, ../sass/style.scss */
   #persona .persona .user_quote {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 524, ../sass/style.scss */
+  /* line 523, ../sass/style.scss */
   #persona .persona#target_user_1 {
     border-right: 2px solid #fff;
   }
-  /* line 529, ../sass/style.scss */
+  /* line 528, ../sass/style.scss */
   #persona .persona#target_user_2 {
     border-left: 2px solid #fff;
   }
+  /* line 532, ../sass/style.scss */
+  #persona .persona .user_title {
+    margin: 20px 0;
+  }
 
-  /* line 537, ../sass/style.scss */
+  /* line 539, ../sass/style.scss */
   #userflow {
     background-image: url(../images/background/userflow.jpg);
   }
 
-  /* line 541, ../sass/style.scss */
+  /* line 543, ../sass/style.scss */
   #usability_1 {
     background-image: url(../images/background/usability_1.jpg);
   }
 
-  /* line 545, ../sass/style.scss */
+  /* line 547, ../sass/style.scss */
   #wireframe_1 {
     background-image: url(../images/background/wireframe_1.jpg);
   }
 
-  /* line 549, ../sass/style.scss */
+  /* line 551, ../sass/style.scss */
   #usability_2 {
     background-image: url(../images/background/usability_2.jpg);
   }
 
-  /* line 553, ../sass/style.scss */
+  /* line 555, ../sass/style.scss */
   #conclusion {
     background-color: #353b42;
   }

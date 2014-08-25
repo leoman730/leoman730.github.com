@@ -485,23 +485,24 @@ strong {
     ul {
         padding: 0px;
         margin-top: 10px;
-    li {
-        list-style-type: none;
-        font-size: 20px;
-        height: 50px;
-        text-indent: 60px;
-        white-space: nowrap;
-        font-family: Open Sans;
-        @include vcenter;
 
-        &.thumbup {
-            background-position: 0 0;   
-        }
+        li {
+            list-style-type: none;
+            font-size: 20px;
+            height: 50px;
+            text-indent: 60px;
+            white-space: nowrap;
+            font-family: Open Sans;
+            @include vcenter;
 
-        &.thumbdown {
-            background-position: 0 -70px;   
+            &.thumbup {
+                background-position: 0 0;   
+            }
+
+            &.thumbdown {
+                background-position: 0 -70px;   
+            }
         }
-    }
 
     } 
 
@@ -519,8 +520,6 @@ strong {
             line-height: 40px;
         }
     
-
-
         &#target_user_1 {
             border-right: 2px solid #fff;
         }
@@ -530,6 +529,9 @@ strong {
             border-left: 2px solid #fff;
         }
             
+        .user_title {
+            margin: 20px 0;
+        }
     }
 
 }
