@@ -206,6 +206,11 @@ SLIDE 4
 /******************************
 Custom
  *******************************/
+.container-fluid {
+    padding: 0px;
+    min-width: 960px;
+}
+
 .btn-default {
     -webkit-border-radius:10px;
     -moz-border-radius:10px;
@@ -227,7 +232,7 @@ Custom
 
 
 .thumbup, .thumbdown {
-    background-image: url("../images/thumbs.png");
+    /*background-image: url("../images/thumbs.png");*/
     background-repeat: no-repeat;
 }
 
@@ -262,7 +267,7 @@ $break-middle: 960px;
 $break-large: 1200px;
 
 
-@media screen and (min-width: $break-middle) {
+@media screen and (min-width: 0px) {
 
     h1 {
         font-family: Lato, George;
@@ -295,10 +300,12 @@ strong {
 .slide .content_container {
     position: relative;
     padding: 50px 15px;
+    margin: 0px;
     font-size: 20px;
     font-family: Source Sans Pro, Open Sans;
     font-weight: 300;
     height: 100%;
+    overflow: hidden;
     .note {
         background-color: #fff;
         padding: 5px 10px;
@@ -477,7 +484,21 @@ strong {
 }
 
 #competitiveanaylsis {
+    .competitor_1, .competitor_2 {
+        margin-top: 100px;
+    }
+
     background-color:#353b42;
+    #westfield_img, #simon_img {
+        width: 350px;
+        padding: 0px;
+    }
+    .emphasis {
+        font-weight: 500;
+    }
+    .description {
+        padding: 0px 0px 0px 10px;
+    }
 
     ul {
         padding: 0px;
@@ -485,11 +506,9 @@ strong {
 
         li {
             list-style-type: none;
-            font-size: 20px;
-            height: 50px;
-            text-indent: 60px;
             white-space: nowrap;
             @include vcenter;
+            line-height: 24px;
 
             &.thumbup {
                 background-position: 0 0;   
