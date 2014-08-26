@@ -90,6 +90,10 @@ window.ux = new UX();
             window.open(url,'View Report');  
         });
 
+        $('#launch_prototype').click(function(evt) {
+            var url='https://popapp.in/w/projects/51dcb23810dbeb523f001b79/preview/53ea95234dd6263868ddda54';    
+            window.open(url,'View Report');  
+        });
 
         // targeting screen size 1280 * 800
         $(window).resize(function(){
