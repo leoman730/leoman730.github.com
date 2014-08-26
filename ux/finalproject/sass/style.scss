@@ -207,8 +207,499 @@ SLIDE 4
 Custom
  *******************************/
 
-/*@media screen and (min-width: 800px) and (max-width: 1280px){*/
 
+/******************************
+Tablet device 
+ *******************************/
+/*@media screen and (min-width: 800px) and (max-width: 1280px){*/
+$min-width: 0px;
+$max-width: 992px;
+@media screen and (min-width: $min-width) and (max-width: $max-width){
+$max_slide_height: 800px;
+
+    body {
+        font-family: Source Sans Pro;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+.container-fluid {
+    padding: 0px;
+    min-width: $min-width;
+}
+
+.btn-default {
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+    font-weight: bold;
+    font-family: Lato;
+    font-size: 30px;
+    padding: 5px 25px;
+
+    border: 3px solid #fff;
+    background-color: #fff;
+    color: #384466;
+    &:hover,&:focus {
+        background-color: transparent;
+        border: 3px solid #fff;
+        color: #fff;
+    }
+}
+
+
+@mixin vcenter {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+@mixin bgstyle {
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@mixin emphasis {
+    font-weight: 800;
+}
+
+
+    h1 {
+        font-family: Lato, George;
+        font-size: 60px;
+    }
+
+    h2 {
+        font-family: Source Sans Pro, George;
+        font-size: 40px;
+    }
+
+    .slide {
+        @include bgstyle;
+        font-family: Source Sans Pro, George;
+        font-weight: 300;
+        color: #fff;
+        position: relative;
+        min-height: 100%;
+        //max-height: $max_slide_height;
+    }
+
+
+    .navigation {
+        display: none;
+    }
+
+.slide .content_container {
+    position: relative;
+    padding: 50px 30px;
+    margin: 0px;
+    font-size: 20px;
+    font-family: Source Sans Pro, Open Sans;
+    font-weight: 300;
+    min-height: 100%;
+    height: 100%;
+    /*overflow: hidden;*/
+    .note {
+        background-color: #fff;
+        padding: 5px 10px;
+        margin: 20px 0px;
+        max-width: 700px;
+        font-family: Source Sans Pro, Open Sans;
+        color: #384466;
+        font-size: 20px;
+        .emphasis {
+            @include emphasis;
+        }
+}
+
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+ }
+ .clearfix { display: inline-block; }
+ /* start commented backslash hack \*/
+ * html .clearfix { height: 1%; }
+ .clearfix { display: block; }
+ /* close commented backslash hack */
+
+
+ /******************************
+ MAIN 
+  *******************************/
+
+#main {
+    background: 
+        /*url(../images/handwithphone.png) no-repeat bottom right/40% 60%,*/
+        url(../images/handwithphone.png) no-repeat bottom right,
+        url(../images/background/main.jpg); 
+
+    .handwithphone {
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        width: 550px;
+        z-index: 99;
+}
+
+
+#description {
+    // width: 50%;
+    min-width: 415px;
+    margin-top: 120px;
+    position: relative;
+    vertical-align:middle;
+    background: rgba(00, 00, 00, 0.5); 
+    padding: 15px 20px;
+
+    #project_title {
+        font-size: 20px;
+        font-weight: 300;
+}
+
+
+#app_name {
+    margin: 10px 0px; 
+}
+
+#project_description {
+    font-size: 30px;
+    font-weight: 300;
+    .emphasis {
+        @include emphasis;
+    }
+}
+
+}
+}
+
+#survey {
+    background-image: url(../images/background/survey.jpg);
+
+    .reports {
+        #survey_note {
+                position: absolute;
+                left: 160px !important;
+                top: 20px !important;
+                background-color: rgba(00,00,00,0.7);
+                padding:10px;
+                img {
+                    width: 400px;
+                }
+            }
+        img {
+            margin-top:15px;
+            
+            &#survey_report, &#stats, &#survey_note {
+                width: 80%;
+            }
+        }
+    }
+
+.other_reports {
+    padding-top: 100px;
+
+    button {
+        margin-bottom: 20px;
+        margin-right: 50px;
+    }
+}
+
+}
+
+.stat_container {
+    margin-top: 20px;
+    float: left;
+
+    .speech_module {
+        float: left;
+        margin-right: 20px;
+        margin-top: 20px;
+        .speech {
+            color: #384466;
+            position: relative;
+            width: 150px;
+            height: 120px;
+            padding: 10px;
+            /*line-height: 100px;*/
+            background-color: #fff;
+            /*border: 8px solid #666;*/
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            border-radius: 15px;
+
+            @include vcenter;
+            font-weight: bold;
+            &:before {
+                /*  content: ' ';
+                position: absolute;
+                width: 0;
+                height: 0;
+                left: 30px;
+                top: 100px;
+                border: 25px solid;
+                border-color: #666 transparent transparent #666;*/
+}
+&:after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 38px;
+    top: 120px;
+    border: 15px solid;
+    border-color: #fff transparent transparent #fff;
+}
+}
+.num {
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 45px;
+    font-family: lato;
+}
+}
+
+.survey_action {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+}
+
+.survey_report_container {
+    img#deals {
+        position: absolute;
+        top:-220px;
+        left: 100px;
+}
+
+img#survey_report {
+    margin-top: 40px;
+    width: 100%;
+}
+}
+
+#competitiveanaylsis {
+    .competitors {
+        img {
+            width: 100%;
+        }
+    }
+    .competitor_1, .competitor_2 {
+        margin-top: 100px;
+}
+
+background-color:#353b42;
+
+#westfield_img, #simon_img {
+    padding: 0px;
+    margin-bottom: 20px;
+}
+.emphasis {
+    font-weight: 500;
+}
+.description {
+    padding: 0px 0px 0px 10px;
+}
+
+ul {
+    padding: 0px;
+    margin-top: 10px;
+
+    li {
+        list-style-type: none;
+        white-space: nowrap;
+        @include vcenter;
+        line-height: 24px;
+
+        &.thumbup {
+            background-position: 0 0;   
+    }
+
+    &.thumbdown {
+        background-position: 0 -70px;   
+    }
+}
+
+} 
+
+
+
+}
+
+#persona {
+    background-color: #57618e;
+
+#persona_container {
+}
+
+    .persona {
+        min-height: 300px;
+        .user_quote {
+            font-size: 32px;
+            line-height: 40px;
+}
+
+
+.user_title {
+    margin: 20px 0;
+}
+}
+
+}
+
+#userflow {
+    background-image: url(../images/background/userflow.jpg);
+
+    #userflow_chart {
+        img {
+            width: 100%;
+        }
+    }
+
+
+    #scenarios, #userflow_chart {
+        margin-top: 50px;
+}
+
+.scenario {
+    &.first {
+        margin-top: -20px;
+    }
+    margin-bottom: 50px;
+}
+
+}
+
+#usability_1 {
+    background-image: url(../images/background/usability_1.jpg);
+    #usability_report_1 {
+        background: rgba(00,00,00, 0.7);
+        min-height: 500px;
+        padding: 50px 60px 50px 25px;
+
+        ul li {
+            line-height: 50px;
+    }
+
+    #uservoice {
+        margin-top: 20px;
+        #clickme_btn {
+            position: relative;
+            top: -30px;
+        }
+    }
+}
+#sketch {
+    position: absolute;
+
+    img {
+        width: 80%;
+    }
+}
+
+
+}
+
+#wireframe_1 {
+    background-image: url(../images/background/wireframe_1.jpg);
+
+    #wireframe_description {
+        /*@include vcenter;*/
+        font-size: 60px;
+        text-align: center;
+        margin-top: 30%;
+}
+}
+
+#usability_2 {
+    background-image: 
+        url(../images/background/usability_2.jpg);
+
+    #founding_2 {
+        margin-top: 70px;
+        ul li {
+            line-height: 50px;
+    }
+    #quote {
+        margin-top: 60px;
+        p {
+            font-size: 30px;
+            font-weight: 500;
+        }
+        #quote_pointer {
+            position: relative;
+            left: 160px;
+            top: -30px;
+        }
+    }
+}
+.video {
+    margin-top: 70px;
+    }
+
+}
+
+
+#refine {
+    background: 
+        url(../images/background/wireframe-lofi.jpg) no-repeat 50%,
+        url(../images/background/wireframe_bg_dot.png) repeat;
+
+
+    #refine_description {
+        /*@include vcenter;*/
+        margin-top: 10%;
+        font-size: 60px;
+        text-align: center;
+}
+}
+
+
+#conclusion {
+    background-color: #353b42;
+    #conclusion {
+        margin-top: 70px;
+        font-size: 24px;
+        .emphasis {
+            @include emphasis;
+    }
+}
+#interactive_prototype img {
+    margin: 70px auto 70px auto;
+    display: block;
+}
+}
+
+
+}
+
+
+
+
+
+
+/******************************
+Media Screen Size
+ *******************************/
 @media screen and (min-width: 992px){
 $max_slide_height: 800px;
 
@@ -343,7 +834,7 @@ $max_slide_height: 800px;
     background: 
         /*url(../images/handwithphone.png) no-repeat bottom right/40% 60%,*/
         url(../images/handwithphone.png) no-repeat bottom right,
-        url(../images/background/main.jpg);
+        url(../images/background/main.jpg); 
 
     .handwithphone {
         display: block;
