@@ -101,16 +101,16 @@ html, body {
 }
 
 /******************************
- SLIDE 1 
-*******************************/
+SLIDE 1 
+ *******************************/
 /* line 98, ../sass/style.scss */
 #slide1 {
   background-color: #5c9900;
 }
 
 /******************************
- SLIDE 2 
-*******************************/
+SLIDE 2 
+ *******************************/
 /* line 106, ../sass/style.scss */
 #slide2 {
   background-color: #005c99;
@@ -159,8 +159,8 @@ html, body {
 }
 
 /******************************
- SLIDE 3 
-*******************************/
+SLIDE 3 
+ *******************************/
 /* line 151, ../sass/style.scss */
 #slide3 {
   background-color: #b6c10b;
@@ -203,8 +203,8 @@ html, body {
 }
 
 /******************************
- SLIDE 4 
-*******************************/
+SLIDE 4 
+ *******************************/
 /* line 191, ../sass/style.scss */
 #slide4 {
   background-image: url(../images/Slide4/desktop4.jpg);
@@ -223,47 +223,48 @@ html, body {
 }
 
 /******************************
- Custom
+Custom
  *******************************/
 /* line 209, ../sass/style.scss */
 .btn-default {
-  background-color: transparent;
-  border: 3px solid #fff;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
-  color: #fff;
   font-weight: bold;
   font-family: Lato;
+  font-size: 30px;
   padding: 5px 25px;
-}
-/* line 220, ../sass/style.scss */
-.btn-default:hover, .btn-default:focus {
   border: 3px solid #fff;
   background-color: #fff;
   color: #384466;
 }
+/* line 221, ../sass/style.scss */
+.btn-default:hover, .btn-default:focus {
+  background-color: transparent;
+  border: 3px solid #fff;
+  color: #fff;
+}
 
-/* line 228, ../sass/style.scss */
+/* line 229, ../sass/style.scss */
 .thumbup, .thumbdown {
   background-image: url("../images/thumbs.png");
   background-repeat: no-repeat;
 }
 
 @media screen and (min-width: 960px) {
-  /* line 262, ../sass/style.scss */
+  /* line 267, ../sass/style.scss */
   h1 {
     font-family: Lato, George;
     font-size: 60px;
   }
 
-  /* line 267, ../sass/style.scss */
+  /* line 272, ../sass/style.scss */
   h2 {
     font-family: Source Sans Pro, George;
     font-size: 40px;
   }
 
-  /* line 272, ../sass/style.scss */
+  /* line 277, ../sass/style.scss */
   .slide {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -274,27 +275,30 @@ html, body {
     font-weight: 300;
     color: #fff;
     position: relative;
-    padding-left: 5%;
   }
 
-  /* line 281, ../sass/style.scss */
+  /* line 285, ../sass/style.scss */
   strong {
     font-style: normal;
     font-weight: 800;
     font-size: 1.1em;
   }
 
-  /* line 287, ../sass/style.scss */
+  /* line 291, ../sass/style.scss */
   .navigation {
     display: none;
   }
 
-  /* line 291, ../sass/style.scss */
+  /* line 295, ../sass/style.scss */
   .slide .content_container {
     position: relative;
-    padding: 80px 0px;
+    padding: 50px 15px;
+    font-size: 20px;
+    font-family: Source Sans Pro, Open Sans;
+    font-weight: 300;
+    height: 100%;
   }
-  /* line 295, ../sass/style.scss */
+  /* line 302, ../sass/style.scss */
   .slide .content_container .note {
     background-color: #fff;
     padding: 5px 10px;
@@ -305,7 +309,7 @@ html, body {
     font-size: 20px;
   }
 
-  /* line 308, ../sass/style.scss */
+  /* line 315, ../sass/style.scss */
   .clearfix:after {
     visibility: hidden;
     display: block;
@@ -315,31 +319,31 @@ html, body {
     height: 0;
   }
 
-  /* line 316, ../sass/style.scss */
+  /* line 323, ../sass/style.scss */
   .clearfix {
     display: inline-block;
   }
 
   /* start commented backslash hack \*/
-  /* line 318, ../sass/style.scss */
+  /* line 325, ../sass/style.scss */
   * html .clearfix {
     height: 1%;
   }
 
-  /* line 319, ../sass/style.scss */
+  /* line 326, ../sass/style.scss */
   .clearfix {
     display: block;
   }
 
   /* close commented backslash hack */
   /******************************
-   MAIN 
-  *******************************/
-  /* line 327, ../sass/style.scss */
+  MAIN 
+   *******************************/
+  /* line 334, ../sass/style.scss */
   #main {
     background: url(../images/background/main.jpg);
   }
-  /* line 331, ../sass/style.scss */
+  /* line 338, ../sass/style.scss */
   #main .handwithphone {
     display: block;
     position: absolute;
@@ -348,7 +352,7 @@ html, body {
     width: 550px;
     z-index: 99;
   }
-  /* line 341, ../sass/style.scss */
+  /* line 348, ../sass/style.scss */
   #main #description {
     min-width: 415px;
     margin-top: 120px;
@@ -357,88 +361,63 @@ html, body {
     background: rgba(0, 0, 0, 0.5);
     padding: 15px 20px;
   }
-  /* line 350, ../sass/style.scss */
+  /* line 357, ../sass/style.scss */
   #main #description #project_title {
     font-size: 20px;
     font-weight: 300;
   }
-  /* line 356, ../sass/style.scss */
+  /* line 363, ../sass/style.scss */
   #main #description #app_name {
     margin: 10px 0px;
   }
-  /* line 360, ../sass/style.scss */
+  /* line 367, ../sass/style.scss */
   #main #description #project_description {
     font-size: 30px;
     font-weight: 300;
-  }
-  /* line 363, ../sass/style.scss */
-  #main #description #project_description .emphasis {
     font-weight: 400;
   }
 
-  /* line 371, ../sass/style.scss */
+  /* line 376, ../sass/style.scss */
   #survey {
     background-image: url(../images/background/survey.jpg);
   }
-  /* line 373, ../sass/style.scss */
-  #survey .circle {
-    font-family: Lato;
-    font-size: 60px;
-    color: #384466;
-    float: left;
-    border-radius: 50%;
-    width: 90px;
-    height: 90px;
-    background-color: #fff;
-    /*border: 1px solid #fff;*/
-    background-color: #fff;
-    /* width and height can be anything, as long as they're equal */
-    display: -webkit-flexbox;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    text-align: center;
+  /* line 380, ../sass/style.scss */
+  #survey .reports img {
+    margin-top: 15px;
+  }
+  /* line 382, ../sass/style.scss */
+  #survey .reports img#survey_note {
+    position: absolute;
+    left: 525px;
+    top: 20px;
   }
   /* line 387, ../sass/style.scss */
-  #survey .subtitle {
-    margin-top: 20px;
-    display: -webkit-flexbox;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    text-align: center;
+  #survey .reports img#survey_report {
+    width: 500px;
   }
-  /* line 399, ../sass/style.scss */
-  #survey .circle span {
-    margin: auto;
+  /* line 390, ../sass/style.scss */
+  #survey .reports img#stats {
+    width: 500px;
   }
-  /* line 402, ../sass/style.scss */
-  #survey h2 {
-    float: left;
-    margin-left: 10px;
-    font-size: 40px;
+  /* line 397, ../sass/style.scss */
+  #survey .other_reports button {
+    margin-top: 200px;
+    margin-bottom: 20px;
+    margin-right: 50px;
   }
 
-  /* line 409, ../sass/style.scss */
+  /* line 406, ../sass/style.scss */
   .stat_container {
     margin-top: 20px;
     float: left;
   }
-  /* line 413, ../sass/style.scss */
+  /* line 410, ../sass/style.scss */
   .stat_container .speech_module {
     float: left;
     margin-right: 20px;
     margin-top: 20px;
   }
-  /* line 417, ../sass/style.scss */
+  /* line 414, ../sass/style.scss */
   .stat_container .speech_module .speech {
     color: #384466;
     position: relative;
@@ -460,20 +439,21 @@ html, body {
     -webkit-align-items: center;
     align-items: center;
     text-align: center;
+    height: 100%;
     font-weight: bold;
   }
-  /* line 432, ../sass/style.scss */
+  /* line 429, ../sass/style.scss */
   .stat_container .speech_module .speech:before {
     /*  content: ' ';
-        position: absolute;
-        width: 0;
-        height: 0;
-        left: 30px;
-        top: 100px;
-        border: 25px solid;
-        border-color: #666 transparent transparent #666;*/
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 30px;
+    top: 100px;
+    border: 25px solid;
+    border-color: #666 transparent transparent #666;*/
   }
-  /* line 442, ../sass/style.scss */
+  /* line 439, ../sass/style.scss */
   .stat_container .speech_module .speech:after {
     content: ' ';
     position: absolute;
@@ -484,49 +464,48 @@ html, body {
     border: 15px solid;
     border-color: #fff transparent transparent #fff;
   }
-  /* line 453, ../sass/style.scss */
+  /* line 450, ../sass/style.scss */
   .stat_container .speech_module .num {
     margin-top: 25px;
     margin-left: 25px;
     font-size: 45px;
     font-family: lato;
   }
-  /* line 461, ../sass/style.scss */
+  /* line 458, ../sass/style.scss */
   .stat_container .survey_action {
     float: left;
     margin-left: 30px;
     margin-top: 20px;
   }
 
-  /* line 470, ../sass/style.scss */
+  /* line 467, ../sass/style.scss */
   .survey_report_container img#deals {
     position: absolute;
     top: -220px;
     left: 100px;
   }
-  /* line 476, ../sass/style.scss */
+  /* line 473, ../sass/style.scss */
   .survey_report_container img#survey_report {
     margin-top: 40px;
     width: 100%;
   }
 
-  /* line 482, ../sass/style.scss */
+  /* line 479, ../sass/style.scss */
   #competitiveanaylsis {
     background-color: #353b42;
   }
-  /* line 485, ../sass/style.scss */
+  /* line 482, ../sass/style.scss */
   #competitiveanaylsis ul {
     padding: 0px;
     margin-top: 10px;
   }
-  /* line 489, ../sass/style.scss */
+  /* line 486, ../sass/style.scss */
   #competitiveanaylsis ul li {
     list-style-type: none;
     font-size: 20px;
     height: 50px;
     text-indent: 60px;
     white-space: nowrap;
-    font-family: Open Sans;
     display: -webkit-flexbox;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -536,64 +515,174 @@ html, body {
     -webkit-align-items: center;
     align-items: center;
     text-align: center;
+    height: 100%;
   }
-  /* line 498, ../sass/style.scss */
+  /* line 494, ../sass/style.scss */
   #competitiveanaylsis ul li.thumbup {
     background-position: 0 0;
   }
-  /* line 502, ../sass/style.scss */
+  /* line 498, ../sass/style.scss */
   #competitiveanaylsis ul li.thumbdown {
     background-position: 0 -70px;
   }
 
-  /* line 513, ../sass/style.scss */
+  /* line 509, ../sass/style.scss */
   #persona {
     background-color: #57618e;
   }
-  /* line 516, ../sass/style.scss */
+  /* line 512, ../sass/style.scss */
   #persona .persona {
     min-height: 300px;
   }
-  /* line 518, ../sass/style.scss */
+  /* line 514, ../sass/style.scss */
   #persona .persona .user_quote {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 523, ../sass/style.scss */
+  /* line 519, ../sass/style.scss */
   #persona .persona#target_user_1 {
     border-right: 2px solid #fff;
   }
-  /* line 528, ../sass/style.scss */
+  /* line 524, ../sass/style.scss */
   #persona .persona#target_user_2 {
     border-left: 2px solid #fff;
   }
-  /* line 532, ../sass/style.scss */
+  /* line 528, ../sass/style.scss */
   #persona .persona .user_title {
     margin: 20px 0;
   }
 
-  /* line 539, ../sass/style.scss */
+  /* line 535, ../sass/style.scss */
   #userflow {
     background-image: url(../images/background/userflow.jpg);
   }
+  /* line 538, ../sass/style.scss */
+  #userflow #scenarios, #userflow #userflow_chart {
+    margin-top: 50px;
+  }
+  /* line 542, ../sass/style.scss */
+  #userflow .scenario {
+    margin-bottom: 50px;
+  }
 
-  /* line 543, ../sass/style.scss */
+  /* line 548, ../sass/style.scss */
   #usability_1 {
     background-image: url(../images/background/usability_1.jpg);
   }
+  /* line 550, ../sass/style.scss */
+  #usability_1 #usability_report_1 {
+    background: rgba(0, 0, 0, 0.7);
+    min-height: 500px;
+    padding: 50px 25px;
+  }
+  /* line 555, ../sass/style.scss */
+  #usability_1 #usability_report_1 ul li {
+    line-height: 50px;
+  }
+  /* line 559, ../sass/style.scss */
+  #usability_1 #usability_report_1 #uservoice {
+    margin-top: 20px;
+  }
+  /* line 561, ../sass/style.scss */
+  #usability_1 #usability_report_1 #uservoice #clickme_btn {
+    position: relative;
+    top: -30px;
+  }
+  /* line 568, ../sass/style.scss */
+  #usability_1 #sketch img {
+    display: block;
+    position: relative;
+    left: -100px;
+    top: -60px;
+  }
 
-  /* line 547, ../sass/style.scss */
+  /* line 579, ../sass/style.scss */
   #wireframe_1 {
     background-image: url(../images/background/wireframe_1.jpg);
   }
+  /* line 581, ../sass/style.scss */
+  #wireframe_1 #wireframe_description {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    font-size: 60px;
+    text-align: center;
+  }
 
-  /* line 551, ../sass/style.scss */
+  /* line 588, ../sass/style.scss */
   #usability_2 {
     background-image: url(../images/background/usability_2.jpg);
   }
+  /* line 591, ../sass/style.scss */
+  #usability_2 #founding_2 {
+    margin-top: 70px;
+  }
+  /* line 593, ../sass/style.scss */
+  #usability_2 #founding_2 ul li {
+    line-height: 50px;
+  }
+  /* line 596, ../sass/style.scss */
+  #usability_2 #founding_2 #quote {
+    margin-top: 60px;
+  }
+  /* line 598, ../sass/style.scss */
+  #usability_2 #founding_2 #quote p {
+    font-size: 30px;
+    font-weight: 500;
+  }
+  /* line 602, ../sass/style.scss */
+  #usability_2 #founding_2 #quote #quote_pointer {
+    position: relative;
+    left: 160px;
+    top: -30px;
+  }
+  /* line 609, ../sass/style.scss */
+  #usability_2 #video {
+    margin-top: 70px;
+  }
 
-  /* line 555, ../sass/style.scss */
+  /* line 616, ../sass/style.scss */
+  #refine {
+    background-image: url(../images/background/wireframe-lofi.jpg);
+  }
+  /* line 618, ../sass/style.scss */
+  #refine #refine_description {
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    font-size: 60px;
+    text-align: center;
+  }
+
+  /* line 626, ../sass/style.scss */
   #conclusion {
     background-color: #353b42;
+  }
+  /* line 628, ../sass/style.scss */
+  #conclusion #conclusion {
+    margin-top: 70px;
+    font-size: 24px;
+  }
+  /* line 631, ../sass/style.scss */
+  #conclusion #conclusion .emphasis {
+    font-weight: 400;
+  }
+  /* line 635, ../sass/style.scss */
+  #conclusion #interactive_prototype {
+    margin-top: 70px;
   }
 }

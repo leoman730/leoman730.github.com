@@ -25,7 +25,7 @@
         </script>
     </head>
 
-    <body class="container">
+    <body class="container-fluid">
         <ul class="navigation">
             <li data-slide="1">
             Slide 1
@@ -41,10 +41,10 @@
             Slide 4
             </li>
         </ul>
-        <div class="slide" id="main">
+        <div class="slide row" id="main">
             <img src="images/handwithphone.png" class="handwithphone" alt="Hand with phone" />
-            <div class="content_container row">
 
+            <div class="content_container">
                 <div id="description" class="col-md-6 vcenter">
                     <div id="project_title">
                         An UX PROJECT BY PATRICK HUANG 
@@ -67,69 +67,52 @@
                 </div>
 
             </div>
-
         </div>
-        <div class="slide" id="survey">
+
+        <div class="slide row" id="survey">
             <div class="content_container">
 
-                <h1>Survey</h1>
+                <h1 class="">Survey</h1>
 
-                <div class="subtitle">
-                    <div class="circle">
-                        <span> 81 </span>
-                    </div>
-                    <h2> Patricipants </h2>
+                <div class="note">
+                    From a survey I conducted , I discovered that users put a lot of focus 
+                    on deals and sales when they are shopping at the mall. 
+                    They also trying to find way to help them to buy the right product.
                 </div>
 
                 <div class="row">
+                    <div class="reports col-md-5">
+                        <img id="survey_note" src="images/survey_note.png" alt="Survey Note" />
+                        <img id="survey_report" src="images/survey_report.png" alt="Survey Report" />
+                        <img id="stats" src="images/stat.png" alt="Stat" />
+                    </div>    
 
-                    <div class="stat_container col-md-4">
-                        <div class="speech_module">
-                            <div class="speech">
-                                Searh for deals/coupons while shopping
+                    <div class="other_reports col-md-7">
+                        <button type="button" class="btn-default">View Survey</button>
+                        <button type="button" class="btn-default">View Report</button>
 
-                            </div>
-                            <div class="num">45%</div>
-                        </div>
+                        <div id="other_research">
+                            <p>
+                            :w
+                            From other research :<br />
+                            http://www.intomobile.com/2013/04/23/heres-smartphones-change-way-we-shop/<br />
 
-
-                        <div class="speech_module">
-                            <div class="speech">
-                                Have favorite stores they like to visit if available at the mall
-                            </div>
-                            <div class="num">45%</div>
-                        </div>
-
-                        <div class="speech_module">
-                            <div class="speech">
-                                Like to use an mobile app for assistant during the visit
-
-                            </div>
-                            <div class="num">45%</div>
-                        </div>
-
-                        <div class="survey_action">
-                            <button type="button" class="btn btn-default btn-lg">Survey</button>
-                            <br /><br />
-                            <button type="button" class="btn btn-default btn-lg">Report</button>
+                            - 45% of user use smartphone for in-store product research 
+                               and browsing
+                               <br />
+                               - 49% of users performed a price comparison with other retailers
+                               <br />
+                               - 1/4 smart phone user were promoted to go in store after seeing 
+                                   an advertisement
+                            </p>
                         </div>
 
                     </div>
-
-                    <div class="survey_report_container col-md-7">
-                        <img src="images/deals.png" alt="Deals image" id="deals" />
-                        <img src="images/survey_report.png" alt="Survey Report" id="survey_report" />
-                    </div>					
-
                 </div>
-
-
-
-
-
             </div>
-        </div>
-        <div class="slide" id="competitiveanaylsis">
+        </div> <!-- end survey -->
+        
+        <div class="slide row" id="competitiveanaylsis">
             <div class="content_container">
                 <h1>Competitive Analysis</h1>
                 <div class="note">
@@ -138,26 +121,23 @@
                     that can meet their expectations.
                 </div>
 
-                <div class="row">
 
-                    <div class="competitor_1 col-md-6">
-                        <div class="row">
-                            <img src="images/westfield.png" alt="" class="col-md-8" />
-                            <div class="description col-md-3">
-                                <img src="images/westfield_title.png" alt="Competitor Title" />
-                                <ul>
-                                    <li class="thumbup">Voice Control</li>
-                                    <li class="thumbup">Turn by turn direction</li>
-                                    <li class="thumbup">Booking for movies and resturants</li>								
-                                </ul>
-                                <br /><br />
-                                <ul>
-                                    <li class="thumbdown">Mall info out of date</li>
-                                    <li class="thumbdown">Report function not working</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+        <div class="competitor_1 col-md-6">
+                <img src="images/westfield.png" alt="" class="col-md-5" />
+                <div class="description col-md-7">
+                    <img src="images/westfield_title.png" alt="Competitor Title" />
+                    <ul>
+                        <li class="thumbup">Voice Control</li>
+                        <li class="thumbup">Turn by turn direction</li>
+                        <li class="thumbup">Booking for movies and resturants</li>								
+                    </ul>
+                    <br /><br />
+                    <ul>
+                        <li class="thumbdown">Mall info out of date</li>
+                        <li class="thumbdown">Report function not working</li>
+                    </ul>
+                </div>
+        </div>
 
                     <div class="competitor_2 col-md-6">
                         <div class="row">
@@ -177,14 +157,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
 
         </div> <!--- end competitive analysis -->
 
 
 
-        <div class="slide" id="persona">
+        <div class="slide row" id="persona">
             <div class="content_container">
                 <h1>Target Users</h1>
                 <div class="note">
@@ -328,75 +307,153 @@
 
 
 
-        <div class="slide" id="userflow">
-        </div>
-        <div class="slide" id="usability_1">
-        </div>
-        <div class="slide" id="wireframe_1">
-        </div>
-        <div class="slide" id="usability_2">
-        </div>
-        <div class="slide" id="conclusion">
-        </div>
-        <div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
-            <a class="button" data-slide="2" title=""></a>
-        </div>
-        <!--End Slide 1-->
-        <div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
-            <div class="wrapper">
-                <img src="images/slide2/blur-ball.png" data-stellar-ratio="3" data-stellar-vertical-offset="-55"
-                alt="">
-                <img src="images/slide2/blur-ball-big.png" data-stellar-ratio="1" data-stellar-vertical-offset="-102"
-                alt="">
-                <img src="images/slide2/focus-ball.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"
-                alt="">
-                <img src="images/slide2/small-ball.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-25"
-                alt="">
-                <img src="images/slide2/blur-ball.png" data-stellar-ratio="3" data-stellar-vertical-offset="-55"
-                alt="">
-                <img src="images/slide2/blur-ball-big.png" data-stellar-ratio="1" data-stellar-vertical-offset="-102"
-                alt="">
-                <img src="images/slide2/focus-ball.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"
-                alt="">
-                <img src="images/slide2/small-ball.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-25"
-                alt="">
+        <div class="slide row" id="userflow">
+            <div class="content_container">
+                <h1>How users could use the application</h1>
+                <div class="col-md-4" id="scenarios">
+                    <div class="scenario">
+                        <h3>Search for coupons</h3>
+                        <p>
+                        A user want to buy some new clothes and
+                        she uses EasyShopper to help her locate
+                        deals. (See scenario 1)
+                        </p>
+                    </div>
+                
+                    <div class="scenario">
+                        <h3>Create a promotion</h3>
+                        <p>A store owner wants to promote a sale and he wants to submit a coupon deal to EasyShopper so to attract more customers. (See scenario 2)</p>
+                    </div>
+
+                    <div class="scenario">
+                        <h3>Get store Direction</h3>
+                        <p>
+                        A user want to use EasyShopper to get to one of her favorites store. (See scenario 3)
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-8" id="userflow_chart">
+                    <img src="images/userflow_chart.jpg" alt="User Flow Chart" />
+                </div>
+                
             </div>
-            <span class="slideno">
-                Slide 2
-            </span>
-            <a class="button" data-slide="3" title=""></a>
+
         </div>
-        <!--End Slide 2-->
-        <div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
-            <div class="wrapper">
-                <img src="images/slide3/freelance.png" data-stellar-ratio="1.4" data-stellar-vertical-offset="-102"
-                alt="">
-                <img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-53"
-                alt="">
-                <img src="images/slide3/rockable.png" data-stellar-ratio="2.7" data-stellar-vertical-offset="-200"
-                alt="">
-                <img src="images/slide3/themeforest.png" data-stellar-ratio="3" data-stellar-vertical-offset="-200"
-                alt="">
-                <img src="images/slide3/tutshub.png" data-stellar-ratio="1" data-stellar-vertical-offset="-200"
-                alt="">
-                <img src="images/slide3/psdtuts.png" data-stellar-ratio="1.5" data-stellar-vertical-offset="-200"
-                alt="">
+        <div class="slide row" id="usability_1">
+            <div class="content_container">
+                <h1>Paper prototyping and Usability Testing</h1>
+                <div class="note">
+                    Taking into account from what I learn from research, I created a set of paper
+                    prototype. To validate my idea and concept. I invited 4 users to participate 
+                    in an userability test session.
+                </div>
+                <div id="usability_report_1" class="col-md-7">
+                    <div id="founding_1">
+                        <h3>
+                            From the test, I found out:
+                        </h3>
+                        <ul>
+                            <li>2 out of 4 users fround issue with navigation</li>
+                            <li>4 out of 4 users were expecting there an easier way to find deals</li>
+                            <li>4 out of 4 users found bookmarking icons confusing</li>
+                            <li>3 out of 4 users didn’t know how to use direction assistant</li>
+                        </ul>
+                        <div id="uservoice">
+                            <img src="images/usevoice.png" alt="User Voice Icon" />
+                            <img src="images/clickme.png" alt="Click Me Icon" id="clickme_btn" />
+                        </div>
+                    </div>
+                </div>
+                <div id="sketch" class="col-md-5">
+                    <img src="images/sketch_prototype.png" alt="Paper Prototype Sketch"/>
+                </div>
+
+
             </div>
-            <span class="slideno">
-                Slide 3
-            </span>
-            <a class="button" data-slide="4" title=""></a>
         </div>
-        <!--End Slide 3-->
-        <div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0">
-            <span class="slideno">
-                Slide 4
-            </span>
-            <span class="parallaxbg">
-                Use the parallax effects on background images too!
-            </span>
+        <div class="slide row" id="wireframe_1">
+            <div class="content_container">
+                <div id="wireframe_description" class="col-md-offset-1 col-md-10">
+                    Taking valuable feedback from 
+                    users in the first round of testing,
+                    lo-fi digital wireframes were created
+                </div>
+            </div>
         </div>
-        <!--End Slide 4-->
+        <div class="slide row" id="usability_2">
+            <div class="content_container">
+              <h1>Usability Testing Round 2</h1>  
+              <div class="note">
+                  I invited 3 uesrs to perfom a more thorough usability test sesion on 
+                  the lo-fi digital wireframe.
+              </div>
+
+                <div id="usability_report_2" class="col-md-7">
+                    <div id="founding_2">
+                        <h3>
+                            From the usability test, I found out:
+                        </h3>
+                        <ul>
+                            <li>2 out of 3 users feel the global search is too broad </li>
+                            <li>2 of 3 users suggest to simplify favorite items listing</li>
+                            <li>2 of 3 users not sure what’s next once the favorite icon is clicked</li>
+                        </ul>
+
+                        <div id="quote">
+                            <p>
+                            “This is good. These coupons and offers are great!!”
+                            <div>-Daryl</div>
+                            </p>
+                            <img src="images/quote_pointer.png" alt="User quote" id="quote_pointer" />
+                        </div>
+                    </div>
+                </div>
+                <div id="video" class="col-md-5">
+                    <iframe width="495" height="278" src="http://www.youtube.com/embed/t0ygqEUHM5I" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="slide row" id="refine">
+            <div class="content_container">
+                <div id="refine_description" class="col-md-offset-1 col-md-10">
+                    <p>
+                    More refinements have done after the second round of testing in order
+                    to create a more pleasant user experience for the application.
+                    <br />
+                    <button type="button" class="btn-default">Download Wireframes PDF</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide row" id="conclusion">
+            <div class="content_container">
+              <h1>Conclusion</h1>  
+              <div id="conclusion" class="col-md-7">
+                  <p>From the research we know that while people at the mall, 
+                  they wants realtime time shopping assistant, <span class="emphasis">deals</span> 
+                  and <span class="emphasis">conveniences</span>. The usability tests reveal and verify that 
+                  if an mobile application can help provide an easy, 
+                  real time assistant for users during their shopping 
+                  mall visit that focuses on deals, conveniences, and 
+                  strategic shopping, then shoppers can be more happy 
+                  and the mall will see an increase in foot-traffic, sales.
+                    </p>
+                    <p>
+                  The next step will be taken the design to the next level and 
+                  to start work on marketing campaign and the application
+                  developent. 
+                  </p>
+                  <br />
+                    <button type="button" class="btn-default">Launch the Prototype</button>
+              </div>
+
+              <div class="col-md-offset-1 col-md-4">
+                  <img src="images/interactive_prototype.png" alt="Interactive Prototype" />
+              </div>
+            </div>
+        </div>
     </body>
 
 </html>
