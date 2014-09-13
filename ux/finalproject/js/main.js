@@ -76,7 +76,7 @@ window.ux = new UX();
 
 
         $('#wireframe_download').click(function(evt) {
-            var url='https://www.evernote.com/shard/s203/res/40873ff3-1209-4750-a66c-75e5cf346a59/wireframe.v2.0.0.pdf';    
+            var url='resources/wireframe.v2.0.0.pdf';    
             window.open(url,'Download');  
         });
 
@@ -92,7 +92,7 @@ window.ux = new UX();
 
         $('#launch_prototype').click(function(evt) {
             var url='https://popapp.in/w/projects/51dcb23810dbeb523f001b79/preview/53ea95234dd6263868ddda54';    
-            window.open(url,'View Report');  
+            window.open(url,'Launch Prototype');  
         });
 
         // targeting screen size 1280 * 800
