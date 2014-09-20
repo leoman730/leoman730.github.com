@@ -77,26 +77,28 @@ Custom
 Iphone screen size 
  *******************************/
 /*@media screen and (min-width: 800px) and (max-width: 1280px){*/
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 320px) {
   /* line 105, ../sass/style.scss */
   .container-fluid {
     padding: 0px;
     min-width: 320px;
+    max-width: 320px;
+    overflow: hidden;
   }
 
-  /* line 110, ../sass/style.scss */
+  /* line 112, ../sass/style.scss */
   h1 {
     font-family: Lato, George;
-    font-size: 60px;
+    font-size: 54px;
   }
 
-  /* line 115, ../sass/style.scss */
+  /* line 117, ../sass/style.scss */
   h2 {
     font-family: Source Sans Pro, George;
-    font-size: 40px;
+    font-size: 36px;
   }
 
-  /* line 120, ../sass/style.scss */
+  /* line 122, ../sass/style.scss */
   .slide {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -109,10 +111,10 @@ Iphone screen size
     position: relative;
     min-height: 100%;
   }
-  /* line 129, ../sass/style.scss */
+  /* line 131, ../sass/style.scss */
   .slide .content_container {
     position: relative;
-    padding: 50px 30px;
+    padding: 10px;
     margin: 0px;
     font-size: 20px;
     font-family: Source Sans Pro, Open Sans;
@@ -121,7 +123,7 @@ Iphone screen size
     height: 100%;
     /*overflow: hidden;*/
   }
-  /* line 139, ../sass/style.scss */
+  /* line 141, ../sass/style.scss */
   .slide .content_container .note {
     background-color: #fff;
     padding: 5px 10px;
@@ -131,7 +133,7 @@ Iphone screen size
     color: #384466;
     font-size: 20px;
   }
-  /* line 147, ../sass/style.scss */
+  /* line 149, ../sass/style.scss */
   .slide .content_container .note .emphasis {
     font-weight: 800;
   }
@@ -139,15 +141,15 @@ Iphone screen size
   /******************************
    MAIN 
   *******************************/
-  /* line 165, ../sass/style.scss */
+  /* line 167, ../sass/style.scss */
   #main {
     background: url(../images/handwithphone.png) no-repeat bottom right/320px 480px, url(../images/background/main.jpg);
   }
-  /* line 171, ../sass/style.scss */
+  /* line 173, ../sass/style.scss */
   #main .content_container {
     padding: 0px;
   }
-  /* line 175, ../sass/style.scss */
+  /* line 177, ../sass/style.scss */
   #main .handwithphone {
     display: block;
     position: absolute;
@@ -156,7 +158,7 @@ Iphone screen size
     width: 550px;
     z-index: 99;
   }
-  /* line 185, ../sass/style.scss */
+  /* line 187, ../sass/style.scss */
   #main #description {
     min-width: 320px;
     min-height: 480px;
@@ -164,25 +166,25 @@ Iphone screen size
     background: rgba(0, 0, 0, 0.5);
     padding: 15px 20px;
   }
-  /* line 194, ../sass/style.scss */
+  /* line 196, ../sass/style.scss */
   #main #description #project_title {
     font-size: 15px;
     font-weight: 300;
   }
-  /* line 199, ../sass/style.scss */
+  /* line 201, ../sass/style.scss */
   #main #description #app_name {
     margin: 10px 0px;
   }
-  /* line 201, ../sass/style.scss */
+  /* line 203, ../sass/style.scss */
   #main #description #app_name img {
-    width: 310px;
+    width: 280px;
   }
-  /* line 206, ../sass/style.scss */
+  /* line 208, ../sass/style.scss */
   #main #description #project_description {
     font-size: 25px;
     font-weight: 300;
   }
-  /* line 209, ../sass/style.scss */
+  /* line 211, ../sass/style.scss */
   #main #description #project_description .emphasis {
     font-weight: 800;
   }
@@ -190,54 +192,54 @@ Iphone screen size
   /******************************
    SURVEY
   *******************************/
-  /* line 221, ../sass/style.scss */
+  /* line 223, ../sass/style.scss */
   #survey {
     background-image: url(../images/background/survey.jpg);
   }
-  /* line 225, ../sass/style.scss */
+  /* line 227, ../sass/style.scss */
   #survey .reports #survey_note {
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
   }
-  /* line 231, ../sass/style.scss */
+  /* line 233, ../sass/style.scss */
   #survey .reports #survey_note img {
-    width: 300px;
+    width: 240px;
   }
-  /* line 236, ../sass/style.scss */
+  /* line 238, ../sass/style.scss */
   #survey .reports img {
     margin-top: 15px;
   }
-  /* line 239, ../sass/style.scss */
+  /* line 241, ../sass/style.scss */
   #survey .reports img#survey_report, #survey .reports img#stats, #survey .reports img#survey_note {
     width: 100%;
   }
-  /* line 245, ../sass/style.scss */
+  /* line 247, ../sass/style.scss */
   #survey .other_reports {
     padding-top: 20px;
   }
-  /* line 248, ../sass/style.scss */
+  /* line 250, ../sass/style.scss */
   #survey .other_reports p {
     display: none;
   }
-  /* line 252, ../sass/style.scss */
+  /* line 254, ../sass/style.scss */
   #survey .other_reports button {
     width: 100%;
     margin-bottom: 20px;
     margin-right: 50px;
   }
 
-  /* line 261, ../sass/style.scss */
+  /* line 263, ../sass/style.scss */
   .stat_container {
     margin-top: 20px;
     float: left;
   }
-  /* line 265, ../sass/style.scss */
+  /* line 267, ../sass/style.scss */
   .stat_container .speech_module {
     float: left;
     margin-right: 20px;
     margin-top: 20px;
   }
-  /* line 269, ../sass/style.scss */
+  /* line 271, ../sass/style.scss */
   .stat_container .speech_module .speech {
     color: #384466;
     position: relative;
@@ -262,7 +264,7 @@ Iphone screen size
     height: 100%;
     font-weight: bold;
   }
-  /* line 285, ../sass/style.scss */
+  /* line 287, ../sass/style.scss */
   .stat_container .speech_module .speech:after {
     content: ' ';
     position: absolute;
@@ -273,27 +275,27 @@ Iphone screen size
     border: 15px solid;
     border-color: #fff transparent transparent #fff;
   }
-  /* line 297, ../sass/style.scss */
+  /* line 299, ../sass/style.scss */
   .stat_container .speech_module .num {
     margin-top: 25px;
     margin-left: 25px;
     font-size: 45px;
     font-family: lato;
   }
-  /* line 305, ../sass/style.scss */
+  /* line 307, ../sass/style.scss */
   .stat_container .survey_action {
     float: left;
     margin-left: 30px;
     margin-top: 20px;
   }
 
-  /* line 314, ../sass/style.scss */
+  /* line 316, ../sass/style.scss */
   .survey_report_container img#deals {
     position: absolute;
     top: -220px;
     left: 100px;
   }
-  /* line 320, ../sass/style.scss */
+  /* line 322, ../sass/style.scss */
   .survey_report_container img#survey_report {
     margin-top: 40px;
     width: 100%;
@@ -302,38 +304,38 @@ Iphone screen size
   /******************************
    COMPETITTIVE ANALYSIS 
   *******************************/
-  /* line 331, ../sass/style.scss */
+  /* line 333, ../sass/style.scss */
   #competitiveanaylsis {
     background-color: #353b42;
   }
-  /* line 333, ../sass/style.scss */
+  /* line 335, ../sass/style.scss */
   #competitiveanaylsis .competitors img {
     width: 100%;
   }
-  /* line 337, ../sass/style.scss */
+  /* line 339, ../sass/style.scss */
   #competitiveanaylsis .competitor_1, #competitiveanaylsis .competitor_2 {
     margin-top: 100px;
   }
-  /* line 343, ../sass/style.scss */
+  /* line 345, ../sass/style.scss */
   #competitiveanaylsis #westfield_img, #competitiveanaylsis #simon_img {
     padding: 0px;
     margin-bottom: 20px;
     width: 100%;
   }
-  /* line 348, ../sass/style.scss */
+  /* line 350, ../sass/style.scss */
   #competitiveanaylsis .emphasis {
     font-weight: 500;
   }
-  /* line 351, ../sass/style.scss */
+  /* line 353, ../sass/style.scss */
   #competitiveanaylsis .description {
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 0px;
   }
-  /* line 355, ../sass/style.scss */
+  /* line 357, ../sass/style.scss */
   #competitiveanaylsis ul {
     padding: 0px;
     margin-top: 10px;
   }
-  /* line 359, ../sass/style.scss */
+  /* line 361, ../sass/style.scss */
   #competitiveanaylsis ul li {
     list-style-type: none;
     white-space: nowrap;
@@ -348,12 +350,14 @@ Iphone screen size
     text-align: center;
     height: 100%;
     line-height: 24px;
+    text-align: left;
+    white-space: pre-wrap;
   }
-  /* line 365, ../sass/style.scss */
+  /* line 369, ../sass/style.scss */
   #competitiveanaylsis ul li.thumbup {
     background-position: 0 0;
   }
-  /* line 369, ../sass/style.scss */
+  /* line 373, ../sass/style.scss */
   #competitiveanaylsis ul li.thumbdown {
     background-position: 0 -70px;
   }
@@ -361,20 +365,20 @@ Iphone screen size
   /******************************
    PERSONA
   *******************************/
-  /* line 380, ../sass/style.scss */
+  /* line 384, ../sass/style.scss */
   #persona {
     background-color: #57618e;
   }
-  /* line 383, ../sass/style.scss */
+  /* line 387, ../sass/style.scss */
   #persona .persona {
     min-height: 300px;
   }
-  /* line 385, ../sass/style.scss */
+  /* line 389, ../sass/style.scss */
   #persona .persona .user_quote {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 391, ../sass/style.scss */
+  /* line 395, ../sass/style.scss */
   #persona .persona .user_title {
     margin: 20px 0;
   }
@@ -382,23 +386,23 @@ Iphone screen size
   /******************************
    USER FLOW
   *******************************/
-  /* line 402, ../sass/style.scss */
+  /* line 406, ../sass/style.scss */
   #userflow {
     background-image: url(../images/background/userflow.jpg);
   }
-  /* line 406, ../sass/style.scss */
+  /* line 410, ../sass/style.scss */
   #userflow #userflow_chart img {
     width: 100%;
   }
-  /* line 411, ../sass/style.scss */
+  /* line 415, ../sass/style.scss */
   #userflow #scenarios, #userflow #userflow_chart {
     margin-top: 50px;
   }
-  /* line 415, ../sass/style.scss */
+  /* line 419, ../sass/style.scss */
   #userflow .scenario {
     margin-bottom: 50px;
   }
-  /* line 416, ../sass/style.scss */
+  /* line 420, ../sass/style.scss */
   #userflow .scenario.first {
     margin-top: -20px;
   }
@@ -406,34 +410,35 @@ Iphone screen size
   /******************************
    USABILITY 1
   *******************************/
-  /* line 427, ../sass/style.scss */
+  /* line 431, ../sass/style.scss */
   #usability_1 {
     background-image: url(../images/background/usability_1.jpg);
   }
-  /* line 429, ../sass/style.scss */
+  /* line 433, ../sass/style.scss */
   #usability_1 #usability_report_1 {
     background: rgba(0, 0, 0, 0.7);
     padding: 10px;
   }
-  /* line 433, ../sass/style.scss */
+  /* line 437, ../sass/style.scss */
   #usability_1 #usability_report_1 ul li {
     line-height: 35px;
   }
-  /* line 437, ../sass/style.scss */
+  /* line 441, ../sass/style.scss */
   #usability_1 #usability_report_1 #uservoice {
     margin-top: 35px;
   }
-  /* line 439, ../sass/style.scss */
+  /* line 443, ../sass/style.scss */
   #usability_1 #usability_report_1 #uservoice #clickme_btn {
     position: relative;
-    top: -30px;
+    top: -120px;
+    left: 80px;
   }
-  /* line 446, ../sass/style.scss */
+  /* line 451, ../sass/style.scss */
   #usability_1 #sketch {
     position: absolute;
     display: none;
   }
-  /* line 450, ../sass/style.scss */
+  /* line 455, ../sass/style.scss */
   #usability_1 #sketch img {
     width: 80%;
   }
@@ -441,11 +446,11 @@ Iphone screen size
   /******************************
    WIREFRAME 1
   *******************************/
-  /* line 462, ../sass/style.scss */
+  /* line 467, ../sass/style.scss */
   #wireframe_1 {
     background-image: url(../images/background/wireframe_1.jpg);
   }
-  /* line 465, ../sass/style.scss */
+  /* line 470, ../sass/style.scss */
   #wireframe_1 #wireframe_description {
     /*@include vcenter;*/
     font-size: 30px;
@@ -456,35 +461,35 @@ Iphone screen size
   /******************************
    USABILITY 2
   *******************************/
-  /* line 479, ../sass/style.scss */
+  /* line 484, ../sass/style.scss */
   #usability_2 {
     background-image: url(../images/background/usability_2.jpg);
   }
-  /* line 483, ../sass/style.scss */
+  /* line 488, ../sass/style.scss */
   #usability_2 #founding_2 {
     margin-top: 70px;
   }
-  /* line 485, ../sass/style.scss */
+  /* line 490, ../sass/style.scss */
   #usability_2 #founding_2 ul li {
     line-height: 35px;
   }
-  /* line 489, ../sass/style.scss */
+  /* line 494, ../sass/style.scss */
   #usability_2 #founding_2 #quote {
     margin-top: 60px;
   }
-  /* line 491, ../sass/style.scss */
+  /* line 496, ../sass/style.scss */
   #usability_2 #founding_2 #quote p {
     font-size: 30px;
     font-weight: 500;
   }
-  /* line 495, ../sass/style.scss */
+  /* line 500, ../sass/style.scss */
   #usability_2 #founding_2 #quote #quote_pointer {
     display: none;
     position: relative;
     left: 160px;
     top: -30px;
   }
-  /* line 504, ../sass/style.scss */
+  /* line 509, ../sass/style.scss */
   #usability_2 .video {
     margin-top: 70px;
   }
@@ -492,18 +497,18 @@ Iphone screen size
   /******************************
    REFINE
   *******************************/
-  /* line 516, ../sass/style.scss */
+  /* line 521, ../sass/style.scss */
   #refine {
     background: url(../images/background/wireframe-lofi.jpg) no-repeat 50%, url(../images/background/wireframe_bg_dot.png) repeat;
   }
-  /* line 522, ../sass/style.scss */
+  /* line 527, ../sass/style.scss */
   #refine #refine_description {
     /*@include vcenter;*/
     margin-top: 10%;
     font-size: 30px;
     text-align: left;
   }
-  /* line 528, ../sass/style.scss */
+  /* line 533, ../sass/style.scss */
   #refine #refine_description #wireframe_download {
     margin-top: 20px;
     font-size: 18px;
@@ -513,20 +518,20 @@ Iphone screen size
   /******************************
    CONCLUSTON
   *******************************/
-  /* line 540, ../sass/style.scss */
+  /* line 545, ../sass/style.scss */
   #conclusion {
     background-color: #353b42;
   }
-  /* line 542, ../sass/style.scss */
+  /* line 547, ../sass/style.scss */
   #conclusion #conclusion {
     margin-top: 70px;
     font-size: 24px;
   }
-  /* line 545, ../sass/style.scss */
+  /* line 550, ../sass/style.scss */
   #conclusion #conclusion .emphasis {
     font-weight: 800;
   }
-  /* line 549, ../sass/style.scss */
+  /* line 554, ../sass/style.scss */
   #conclusion #interactive_prototype img {
     margin: 70px auto 70px auto;
     display: block;
@@ -537,25 +542,25 @@ Tablet device
  *******************************/
 /*@media screen and (min-width: 800px) and (max-width: 1280px){*/
 @media screen and (min-width: 480px) and (max-width: 992px) {
-  /* line 578, ../sass/style.scss */
+  /* line 583, ../sass/style.scss */
   .container-fluid {
     padding: 0px;
     min-width: 480px;
   }
 
-  /* line 583, ../sass/style.scss */
+  /* line 588, ../sass/style.scss */
   h1 {
     font-family: Lato, George;
     font-size: 60px;
   }
 
-  /* line 588, ../sass/style.scss */
+  /* line 593, ../sass/style.scss */
   h2 {
     font-family: Source Sans Pro, George;
     font-size: 40px;
   }
 
-  /* line 593, ../sass/style.scss */
+  /* line 598, ../sass/style.scss */
   .slide {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -568,7 +573,7 @@ Tablet device
     position: relative;
     min-height: 100%;
   }
-  /* line 602, ../sass/style.scss */
+  /* line 607, ../sass/style.scss */
   .slide .content_container {
     position: relative;
     padding: 50px 30px;
@@ -580,7 +585,7 @@ Tablet device
     height: 100%;
     /*overflow: hidden;*/
   }
-  /* line 612, ../sass/style.scss */
+  /* line 617, ../sass/style.scss */
   .slide .content_container .note {
     background-color: #fff;
     padding: 5px 10px;
@@ -590,7 +595,7 @@ Tablet device
     color: #384466;
     font-size: 20px;
   }
-  /* line 620, ../sass/style.scss */
+  /* line 625, ../sass/style.scss */
   .slide .content_container .note .emphasis {
     font-weight: 800;
   }
@@ -598,11 +603,11 @@ Tablet device
   /******************************
    MAIN 
   *******************************/
-  /* line 638, ../sass/style.scss */
+  /* line 643, ../sass/style.scss */
   #main {
     background: url(../images/handwithphone.png) no-repeat bottom right, url(../images/background/main.jpg);
   }
-  /* line 644, ../sass/style.scss */
+  /* line 649, ../sass/style.scss */
   #main .handwithphone {
     display: block;
     position: absolute;
@@ -611,7 +616,7 @@ Tablet device
     width: 550px;
     z-index: 99;
   }
-  /* line 654, ../sass/style.scss */
+  /* line 659, ../sass/style.scss */
   #main #description {
     min-width: 415px;
     margin-top: 120px;
@@ -620,21 +625,21 @@ Tablet device
     background: rgba(0, 0, 0, 0.5);
     padding: 15px 20px;
   }
-  /* line 663, ../sass/style.scss */
+  /* line 668, ../sass/style.scss */
   #main #description #project_title {
     font-size: 20px;
     font-weight: 300;
   }
-  /* line 668, ../sass/style.scss */
+  /* line 673, ../sass/style.scss */
   #main #description #app_name {
     margin: 10px 0px;
   }
-  /* line 672, ../sass/style.scss */
+  /* line 677, ../sass/style.scss */
   #main #description #project_description {
     font-size: 30px;
     font-weight: 300;
   }
-  /* line 675, ../sass/style.scss */
+  /* line 680, ../sass/style.scss */
   #main #description #project_description .emphasis {
     font-weight: 800;
   }
@@ -642,11 +647,11 @@ Tablet device
   /******************************
    SURVEY
   *******************************/
-  /* line 687, ../sass/style.scss */
+  /* line 692, ../sass/style.scss */
   #survey {
     background-image: url(../images/background/survey.jpg);
   }
-  /* line 691, ../sass/style.scss */
+  /* line 696, ../sass/style.scss */
   #survey .reports #survey_note {
     position: absolute;
     left: 160px !important;
@@ -654,40 +659,40 @@ Tablet device
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px;
   }
-  /* line 697, ../sass/style.scss */
+  /* line 702, ../sass/style.scss */
   #survey .reports #survey_note img {
     width: 400px;
   }
-  /* line 701, ../sass/style.scss */
+  /* line 706, ../sass/style.scss */
   #survey .reports img {
     margin-top: 15px;
   }
-  /* line 704, ../sass/style.scss */
+  /* line 709, ../sass/style.scss */
   #survey .reports img#survey_report, #survey .reports img#stats, #survey .reports img#survey_note {
     width: 80%;
   }
-  /* line 710, ../sass/style.scss */
+  /* line 715, ../sass/style.scss */
   #survey .other_reports {
     padding-top: 100px;
   }
-  /* line 713, ../sass/style.scss */
+  /* line 718, ../sass/style.scss */
   #survey .other_reports button {
     margin-bottom: 20px;
     margin-right: 50px;
   }
 
-  /* line 721, ../sass/style.scss */
+  /* line 726, ../sass/style.scss */
   .stat_container {
     margin-top: 20px;
     float: left;
   }
-  /* line 725, ../sass/style.scss */
+  /* line 730, ../sass/style.scss */
   .stat_container .speech_module {
     float: left;
     margin-right: 20px;
     margin-top: 20px;
   }
-  /* line 729, ../sass/style.scss */
+  /* line 734, ../sass/style.scss */
   .stat_container .speech_module .speech {
     color: #384466;
     position: relative;
@@ -712,7 +717,7 @@ Tablet device
     height: 100%;
     font-weight: bold;
   }
-  /* line 745, ../sass/style.scss */
+  /* line 750, ../sass/style.scss */
   .stat_container .speech_module .speech:after {
     content: ' ';
     position: absolute;
@@ -723,27 +728,27 @@ Tablet device
     border: 15px solid;
     border-color: #fff transparent transparent #fff;
   }
-  /* line 757, ../sass/style.scss */
+  /* line 762, ../sass/style.scss */
   .stat_container .speech_module .num {
     margin-top: 25px;
     margin-left: 25px;
     font-size: 45px;
     font-family: lato;
   }
-  /* line 765, ../sass/style.scss */
+  /* line 770, ../sass/style.scss */
   .stat_container .survey_action {
     float: left;
     margin-left: 30px;
     margin-top: 20px;
   }
 
-  /* line 774, ../sass/style.scss */
+  /* line 779, ../sass/style.scss */
   .survey_report_container img#deals {
     position: absolute;
     top: -220px;
     left: 100px;
   }
-  /* line 780, ../sass/style.scss */
+  /* line 785, ../sass/style.scss */
   .survey_report_container img#survey_report {
     margin-top: 40px;
     width: 100%;
@@ -752,37 +757,37 @@ Tablet device
   /******************************
    COMPETITTIVE ANALYSIS 
   *******************************/
-  /* line 791, ../sass/style.scss */
+  /* line 796, ../sass/style.scss */
   #competitiveanaylsis {
     background-color: #353b42;
   }
-  /* line 793, ../sass/style.scss */
+  /* line 798, ../sass/style.scss */
   #competitiveanaylsis .competitors img {
     width: 100%;
   }
-  /* line 797, ../sass/style.scss */
+  /* line 802, ../sass/style.scss */
   #competitiveanaylsis .competitor_1, #competitiveanaylsis .competitor_2 {
     margin-top: 100px;
   }
-  /* line 803, ../sass/style.scss */
+  /* line 808, ../sass/style.scss */
   #competitiveanaylsis #westfield_img, #competitiveanaylsis #simon_img {
     padding: 0px;
     margin-bottom: 20px;
   }
-  /* line 807, ../sass/style.scss */
+  /* line 812, ../sass/style.scss */
   #competitiveanaylsis .emphasis {
     font-weight: 500;
   }
-  /* line 810, ../sass/style.scss */
+  /* line 815, ../sass/style.scss */
   #competitiveanaylsis .description {
     padding: 0px 0px 0px 10px;
   }
-  /* line 814, ../sass/style.scss */
+  /* line 819, ../sass/style.scss */
   #competitiveanaylsis ul {
     padding: 0px;
     margin-top: 10px;
   }
-  /* line 818, ../sass/style.scss */
+  /* line 823, ../sass/style.scss */
   #competitiveanaylsis ul li {
     list-style-type: none;
     white-space: nowrap;
@@ -798,11 +803,11 @@ Tablet device
     height: 100%;
     line-height: 24px;
   }
-  /* line 824, ../sass/style.scss */
+  /* line 829, ../sass/style.scss */
   #competitiveanaylsis ul li.thumbup {
     background-position: 0 0;
   }
-  /* line 828, ../sass/style.scss */
+  /* line 833, ../sass/style.scss */
   #competitiveanaylsis ul li.thumbdown {
     background-position: 0 -70px;
   }
@@ -810,20 +815,20 @@ Tablet device
   /******************************
    PERSONA
   *******************************/
-  /* line 839, ../sass/style.scss */
+  /* line 844, ../sass/style.scss */
   #persona {
     background-color: #57618e;
   }
-  /* line 842, ../sass/style.scss */
+  /* line 847, ../sass/style.scss */
   #persona .persona {
     min-height: 300px;
   }
-  /* line 844, ../sass/style.scss */
+  /* line 849, ../sass/style.scss */
   #persona .persona .user_quote {
     font-size: 32px;
     line-height: 40px;
   }
-  /* line 850, ../sass/style.scss */
+  /* line 855, ../sass/style.scss */
   #persona .persona .user_title {
     margin: 20px 0;
   }
@@ -831,23 +836,23 @@ Tablet device
   /******************************
    USER FLOW
   *******************************/
-  /* line 861, ../sass/style.scss */
+  /* line 866, ../sass/style.scss */
   #userflow {
     background-image: url(../images/background/userflow.jpg);
   }
-  /* line 865, ../sass/style.scss */
+  /* line 870, ../sass/style.scss */
   #userflow #userflow_chart img {
     width: 100%;
   }
-  /* line 870, ../sass/style.scss */
+  /* line 875, ../sass/style.scss */
   #userflow #scenarios, #userflow #userflow_chart {
     margin-top: 50px;
   }
-  /* line 874, ../sass/style.scss */
+  /* line 879, ../sass/style.scss */
   #userflow .scenario {
     margin-bottom: 50px;
   }
-  /* line 875, ../sass/style.scss */
+  /* line 880, ../sass/style.scss */
   #userflow .scenario.first {
     margin-top: -20px;
   }
@@ -855,34 +860,34 @@ Tablet device
   /******************************
    USABILITY 1
   *******************************/
-  /* line 886, ../sass/style.scss */
+  /* line 891, ../sass/style.scss */
   #usability_1 {
     background-image: url(../images/background/usability_1.jpg);
   }
-  /* line 888, ../sass/style.scss */
+  /* line 893, ../sass/style.scss */
   #usability_1 #usability_report_1 {
     background: rgba(0, 0, 0, 0.7);
     min-height: 500px;
     padding: 50px 60px 50px 25px;
   }
-  /* line 893, ../sass/style.scss */
+  /* line 898, ../sass/style.scss */
   #usability_1 #usability_report_1 ul li {
     line-height: 50px;
   }
-  /* line 897, ../sass/style.scss */
+  /* line 902, ../sass/style.scss */
   #usability_1 #usability_report_1 #uservoice {
     margin-top: 20px;
   }
-  /* line 899, ../sass/style.scss */
+  /* line 904, ../sass/style.scss */
   #usability_1 #usability_report_1 #uservoice #clickme_btn {
     position: relative;
     top: -30px;
   }
-  /* line 906, ../sass/style.scss */
+  /* line 911, ../sass/style.scss */
   #usability_1 #sketch {
     position: absolute;
   }
-  /* line 909, ../sass/style.scss */
+  /* line 914, ../sass/style.scss */
   #usability_1 #sketch img {
     width: 80%;
   }
@@ -890,11 +895,11 @@ Tablet device
   /******************************
    WIREFRAME 1
   *******************************/
-  /* line 921, ../sass/style.scss */
+  /* line 926, ../sass/style.scss */
   #wireframe_1 {
     background-image: url(../images/background/wireframe_1.jpg);
   }
-  /* line 924, ../sass/style.scss */
+  /* line 929, ../sass/style.scss */
   #wireframe_1 #wireframe_description {
     /*@include vcenter;*/
     font-size: 60px;
@@ -905,34 +910,34 @@ Tablet device
   /******************************
    USABILITY 2
   *******************************/
-  /* line 938, ../sass/style.scss */
+  /* line 943, ../sass/style.scss */
   #usability_2 {
     background-image: url(../images/background/usability_2.jpg);
   }
-  /* line 942, ../sass/style.scss */
+  /* line 947, ../sass/style.scss */
   #usability_2 #founding_2 {
     margin-top: 70px;
   }
-  /* line 944, ../sass/style.scss */
+  /* line 949, ../sass/style.scss */
   #usability_2 #founding_2 ul li {
     line-height: 50px;
   }
-  /* line 948, ../sass/style.scss */
+  /* line 953, ../sass/style.scss */
   #usability_2 #founding_2 #quote {
     margin-top: 60px;
   }
-  /* line 950, ../sass/style.scss */
+  /* line 955, ../sass/style.scss */
   #usability_2 #founding_2 #quote p {
     font-size: 30px;
     font-weight: 500;
   }
-  /* line 954, ../sass/style.scss */
+  /* line 959, ../sass/style.scss */
   #usability_2 #founding_2 #quote #quote_pointer {
     position: relative;
     left: 160px;
     top: -30px;
   }
-  /* line 962, ../sass/style.scss */
+  /* line 967, ../sass/style.scss */
   #usability_2 .video {
     margin-top: 70px;
   }
@@ -940,11 +945,11 @@ Tablet device
   /******************************
    REFINE
   *******************************/
-  /* line 974, ../sass/style.scss */
+  /* line 979, ../sass/style.scss */
   #refine {
     background: url(../images/background/wireframe-lofi.jpg) no-repeat 50%, url(../images/background/wireframe_bg_dot.png) repeat;
   }
-  /* line 980, ../sass/style.scss */
+  /* line 985, ../sass/style.scss */
   #refine #refine_description {
     /*@include vcenter;*/
     margin-top: 10%;
@@ -955,20 +960,20 @@ Tablet device
   /******************************
    CONCLUSTON
   *******************************/
-  /* line 992, ../sass/style.scss */
+  /* line 997, ../sass/style.scss */
   #conclusion {
     background-color: #353b42;
   }
-  /* line 994, ../sass/style.scss */
+  /* line 999, ../sass/style.scss */
   #conclusion #conclusion {
     margin-top: 70px;
     font-size: 24px;
   }
-  /* line 997, ../sass/style.scss */
+  /* line 1002, ../sass/style.scss */
   #conclusion #conclusion .emphasis {
     font-weight: 800;
   }
-  /* line 1001, ../sass/style.scss */
+  /* line 1006, ../sass/style.scss */
   #conclusion #interactive_prototype img {
     margin: 70px auto 70px auto;
     display: block;
@@ -978,20 +983,20 @@ Tablet device
 Media Screen Size
  *******************************/
 @media screen and (min-width: 992px) {
-  /* line 1019, ../sass/style.scss */
+  /* line 1024, ../sass/style.scss */
   body {
     font-family: Source Sans Pro;
     font-weight: 300;
     font-style: normal;
   }
 
-  /* line 1025, ../sass/style.scss */
+  /* line 1030, ../sass/style.scss */
   .container-fluid {
     padding: 0px;
     min-width: 800px;
   }
 
-  /* line 1030, ../sass/style.scss */
+  /* line 1035, ../sass/style.scss */
   .btn-default {
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -1004,26 +1009,26 @@ Media Screen Size
     background-color: #fff;
     color: #384466;
   }
-  /* line 1042, ../sass/style.scss */
+  /* line 1047, ../sass/style.scss */
   .btn-default:hover, .btn-default:focus {
     background-color: transparent;
     border: 3px solid #fff;
     color: #fff;
   }
 
-  /* line 1076, ../sass/style.scss */
+  /* line 1081, ../sass/style.scss */
   h1 {
     font-family: Lato, George;
     font-size: 60px;
   }
 
-  /* line 1081, ../sass/style.scss */
+  /* line 1086, ../sass/style.scss */
   h2 {
     font-family: Source Sans Pro, George;
     font-size: 40px;
   }
 
-  /* line 1086, ../sass/style.scss */
+  /* line 1091, ../sass/style.scss */
   .slide {
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -1037,12 +1042,12 @@ Media Screen Size
     min-height: 100%;
   }
 
-  /* line 1097, ../sass/style.scss */
+  /* line 1102, ../sass/style.scss */
   .navigation {
     display: none;
   }
 
-  /* line 1101, ../sass/style.scss */
+  /* line 1106, ../sass/style.scss */
   .slide .content_container {
     position: relative;
     padding: 50px 30px;
@@ -1054,7 +1059,7 @@ Media Screen Size
     height: 100%;
     /*overflow: hidden;*/
   }
-  /* line 1111, ../sass/style.scss */
+  /* line 1116, ../sass/style.scss */
   .slide .content_container .note {
     background-color: #fff;
     padding: 5px 10px;
@@ -1064,12 +1069,12 @@ Media Screen Size
     color: #384466;
     font-size: 20px;
   }
-  /* line 1119, ../sass/style.scss */
+  /* line 1124, ../sass/style.scss */
   .slide .content_container .note .emphasis {
     font-weight: 800;
   }
 
-  /* line 1127, ../sass/style.scss */
+  /* line 1132, ../sass/style.scss */
   .clearfix:after {
     visibility: hidden;
     display: block;
@@ -1079,18 +1084,18 @@ Media Screen Size
     height: 0;
   }
 
-  /* line 1135, ../sass/style.scss */
+  /* line 1140, ../sass/style.scss */
   .clearfix {
     display: inline-block;
   }
 
   /* start commented backslash hack \*/
-  /* line 1137, ../sass/style.scss */
+  /* line 1142, ../sass/style.scss */
   * html .clearfix {
     height: 1%;
   }
 
-  /* line 1138, ../sass/style.scss */
+  /* line 1143, ../sass/style.scss */
   .clearfix {
     display: block;
   }
@@ -1099,11 +1104,11 @@ Media Screen Size
   /******************************
   MAIN 
    *******************************/
-  /* line 1146, ../sass/style.scss */
+  /* line 1151, ../sass/style.scss */
   #main {
     background: url(../images/handwithphone.png) no-repeat bottom right, url(../images/background/main.jpg);
   }
-  /* line 1152, ../sass/style.scss */
+  /* line 1157, ../sass/style.scss */
   #main .handwithphone {
     display: block;
     position: absolute;
@@ -1112,7 +1117,7 @@ Media Screen Size
     width: 550px;
     z-index: 99;
   }
-  /* line 1162, ../sass/style.scss */
+  /* line 1167, ../sass/style.scss */
   #main #description {
     min-width: 415px;
     margin-top: 120px;
@@ -1121,65 +1126,65 @@ Media Screen Size
     background: rgba(0, 0, 0, 0.5);
     padding: 15px 20px;
   }
-  /* line 1171, ../sass/style.scss */
+  /* line 1176, ../sass/style.scss */
   #main #description #project_title {
     font-size: 20px;
     font-weight: 300;
   }
-  /* line 1177, ../sass/style.scss */
+  /* line 1182, ../sass/style.scss */
   #main #description #app_name {
     margin: 10px 0px;
   }
-  /* line 1181, ../sass/style.scss */
+  /* line 1186, ../sass/style.scss */
   #main #description #project_description {
     font-size: 30px;
     font-weight: 300;
   }
-  /* line 1184, ../sass/style.scss */
+  /* line 1189, ../sass/style.scss */
   #main #description #project_description .emphasis {
     font-weight: 800;
   }
 
-  /* line 1192, ../sass/style.scss */
+  /* line 1197, ../sass/style.scss */
   #survey {
     background-image: url(../images/background/survey.jpg);
   }
-  /* line 1196, ../sass/style.scss */
+  /* line 1201, ../sass/style.scss */
   #survey .reports img {
     margin-top: 15px;
   }
-  /* line 1198, ../sass/style.scss */
+  /* line 1203, ../sass/style.scss */
   #survey .reports img#survey_note {
     position: absolute;
     left: 525px;
     top: 20px;
   }
-  /* line 1204, ../sass/style.scss */
+  /* line 1209, ../sass/style.scss */
   #survey .reports img#survey_report, #survey .reports img#stats, #survey .reports img#survey_note {
     width: 80%;
   }
-  /* line 1210, ../sass/style.scss */
+  /* line 1215, ../sass/style.scss */
   #survey .other_reports {
     padding-top: 170px;
   }
-  /* line 1213, ../sass/style.scss */
+  /* line 1218, ../sass/style.scss */
   #survey .other_reports button {
     margin-bottom: 20px;
     margin-right: 50px;
   }
 
-  /* line 1221, ../sass/style.scss */
+  /* line 1226, ../sass/style.scss */
   .stat_container {
     margin-top: 20px;
     float: left;
   }
-  /* line 1225, ../sass/style.scss */
+  /* line 1230, ../sass/style.scss */
   .stat_container .speech_module {
     float: left;
     margin-right: 20px;
     margin-top: 20px;
   }
-  /* line 1229, ../sass/style.scss */
+  /* line 1234, ../sass/style.scss */
   .stat_container .speech_module .speech {
     color: #384466;
     position: relative;
@@ -1204,7 +1209,7 @@ Media Screen Size
     height: 100%;
     font-weight: bold;
   }
-  /* line 1244, ../sass/style.scss */
+  /* line 1249, ../sass/style.scss */
   .stat_container .speech_module .speech:before {
     /*  content: ' ';
     position: absolute;
@@ -1215,7 +1220,7 @@ Media Screen Size
     border: 25px solid;
     border-color: #666 transparent transparent #666;*/
   }
-  /* line 1254, ../sass/style.scss */
+  /* line 1259, ../sass/style.scss */
   .stat_container .speech_module .speech:after {
     content: ' ';
     position: absolute;
@@ -1226,63 +1231,63 @@ Media Screen Size
     border: 15px solid;
     border-color: #fff transparent transparent #fff;
   }
-  /* line 1265, ../sass/style.scss */
+  /* line 1270, ../sass/style.scss */
   .stat_container .speech_module .num {
     margin-top: 25px;
     margin-left: 25px;
     font-size: 45px;
     font-family: lato;
   }
-  /* line 1273, ../sass/style.scss */
+  /* line 1278, ../sass/style.scss */
   .stat_container .survey_action {
     float: left;
     margin-left: 30px;
     margin-top: 20px;
   }
 
-  /* line 1282, ../sass/style.scss */
+  /* line 1287, ../sass/style.scss */
   .survey_report_container img#deals {
     position: absolute;
     top: -220px;
     left: 100px;
   }
-  /* line 1288, ../sass/style.scss */
+  /* line 1293, ../sass/style.scss */
   .survey_report_container img#survey_report {
     margin-top: 40px;
     width: 100%;
   }
 
-  /* line 1294, ../sass/style.scss */
+  /* line 1299, ../sass/style.scss */
   #competitiveanaylsis {
     background-color: #353b42;
   }
-  /* line 1296, ../sass/style.scss */
+  /* line 1301, ../sass/style.scss */
   #competitiveanaylsis .competitors img {
     width: 100%;
   }
-  /* line 1300, ../sass/style.scss */
+  /* line 1305, ../sass/style.scss */
   #competitiveanaylsis .competitor_1, #competitiveanaylsis .competitor_2 {
     margin-top: 100px;
   }
-  /* line 1306, ../sass/style.scss */
+  /* line 1311, ../sass/style.scss */
   #competitiveanaylsis #westfield_img, #competitiveanaylsis #simon_img {
     padding: 0px;
     margin-bottom: 20px;
   }
-  /* line 1310, ../sass/style.scss */
+  /* line 1315, ../sass/style.scss */
   #competitiveanaylsis .emphasis {
     font-weight: 500;
   }
-  /* line 1313, ../sass/style.scss */
+  /* line 1318, ../sass/style.scss */
   #competitiveanaylsis .description {
     padding: 0px 0px 0px 10px;
   }
-  /* line 1317, ../sass/style.scss */
+  /* line 1322, ../sass/style.scss */
   #competitiveanaylsis ul {
     padding: 0px;
     margin-top: 10px;
   }
-  /* line 1321, ../sass/style.scss */
+  /* line 1326, ../sass/style.scss */
   #competitiveanaylsis ul li {
     list-style-type: none;
     white-space: nowrap;
@@ -1298,20 +1303,20 @@ Media Screen Size
     height: 100%;
     line-height: 24px;
   }
-  /* line 1327, ../sass/style.scss */
+  /* line 1332, ../sass/style.scss */
   #competitiveanaylsis ul li.thumbup {
     background-position: 0 0;
   }
-  /* line 1331, ../sass/style.scss */
+  /* line 1336, ../sass/style.scss */
   #competitiveanaylsis ul li.thumbdown {
     background-position: 0 -70px;
   }
 
-  /* line 1342, ../sass/style.scss */
+  /* line 1347, ../sass/style.scss */
   #persona {
     background-color: #57618e;
   }
-  /* line 1345, ../sass/style.scss */
+  /* line 1350, ../sass/style.scss */
   #persona #persona_container {
     background-repeat: no-repeat;
     background-size: 2px 100%;
@@ -1332,79 +1337,79 @@ Media Screen Size
     margin-left: 0;
     background-position: 50% 0px;
   }
-  /* line 1359, ../sass/style.scss */
+  /* line 1364, ../sass/style.scss */
   #persona .persona {
     min-height: 300px;
   }
-  /* line 1361, ../sass/style.scss */
+  /* line 1366, ../sass/style.scss */
   #persona .persona .user_quote {
     font-size: 32px;
     line-height: 40px;
     min-height: 150px;
   }
-  /* line 1368, ../sass/style.scss */
+  /* line 1373, ../sass/style.scss */
   #persona .persona .user_title {
     margin: 20px 0;
   }
 
-  /* line 1375, ../sass/style.scss */
+  /* line 1380, ../sass/style.scss */
   #userflow {
     background-image: url(../images/background/userflow.jpg);
   }
-  /* line 1379, ../sass/style.scss */
+  /* line 1384, ../sass/style.scss */
   #userflow #userflow_chart img {
     width: 100%;
   }
-  /* line 1385, ../sass/style.scss */
+  /* line 1390, ../sass/style.scss */
   #userflow #scenarios, #userflow #userflow_chart {
     margin-top: 50px;
   }
-  /* line 1389, ../sass/style.scss */
+  /* line 1394, ../sass/style.scss */
   #userflow .scenario {
     margin-bottom: 50px;
   }
-  /* line 1390, ../sass/style.scss */
+  /* line 1395, ../sass/style.scss */
   #userflow .scenario.first {
     margin-top: -20px;
   }
 
-  /* line 1398, ../sass/style.scss */
+  /* line 1403, ../sass/style.scss */
   #usability_1 {
     background-image: url(../images/background/usability_1.jpg);
   }
-  /* line 1400, ../sass/style.scss */
+  /* line 1405, ../sass/style.scss */
   #usability_1 #usability_report_1 {
     background: rgba(0, 0, 0, 0.7);
     min-height: 500px;
     padding: 50px 60px 50px 25px;
   }
-  /* line 1405, ../sass/style.scss */
+  /* line 1410, ../sass/style.scss */
   #usability_1 #usability_report_1 ul li {
     line-height: 50px;
   }
-  /* line 1409, ../sass/style.scss */
+  /* line 1414, ../sass/style.scss */
   #usability_1 #usability_report_1 #uservoice {
     margin-top: 20px;
   }
-  /* line 1411, ../sass/style.scss */
+  /* line 1416, ../sass/style.scss */
   #usability_1 #usability_report_1 #uservoice #clickme_btn {
     position: relative;
     top: -30px;
   }
-  /* line 1417, ../sass/style.scss */
+  /* line 1422, ../sass/style.scss */
   #usability_1 #sketch {
     position: absolute;
   }
-  /* line 1420, ../sass/style.scss */
+  /* line 1425, ../sass/style.scss */
   #usability_1 #sketch img {
     width: 80%;
   }
 
-  /* line 1428, ../sass/style.scss */
+  /* line 1433, ../sass/style.scss */
   #wireframe_1 {
     background-image: url(../images/background/wireframe_1.jpg);
   }
-  /* line 1431, ../sass/style.scss */
+  /* line 1436, ../sass/style.scss */
   #wireframe_1 #wireframe_description {
     /*@include vcenter;*/
     font-size: 60px;
@@ -1412,43 +1417,43 @@ Media Screen Size
     margin-top: 30%;
   }
 
-  /* line 1439, ../sass/style.scss */
+  /* line 1444, ../sass/style.scss */
   #usability_2 {
     background-image: url(../images/background/usability_2.jpg);
   }
-  /* line 1443, ../sass/style.scss */
+  /* line 1448, ../sass/style.scss */
   #usability_2 #founding_2 {
     margin-top: 70px;
   }
-  /* line 1445, ../sass/style.scss */
+  /* line 1450, ../sass/style.scss */
   #usability_2 #founding_2 ul li {
     line-height: 50px;
   }
-  /* line 1448, ../sass/style.scss */
+  /* line 1453, ../sass/style.scss */
   #usability_2 #founding_2 #quote {
     margin-top: 60px;
   }
-  /* line 1450, ../sass/style.scss */
+  /* line 1455, ../sass/style.scss */
   #usability_2 #founding_2 #quote p {
     font-size: 30px;
     font-weight: 500;
   }
-  /* line 1454, ../sass/style.scss */
+  /* line 1459, ../sass/style.scss */
   #usability_2 #founding_2 #quote #quote_pointer {
     position: relative;
     left: 160px;
     top: -30px;
   }
-  /* line 1461, ../sass/style.scss */
+  /* line 1466, ../sass/style.scss */
   #usability_2 .video {
     margin-top: 70px;
   }
 
-  /* line 1468, ../sass/style.scss */
+  /* line 1473, ../sass/style.scss */
   #refine {
     background: url(../images/background/wireframe-lofi.jpg) no-repeat 50%, url(../images/background/wireframe_bg_dot.png) repeat;
   }
-  /* line 1474, ../sass/style.scss */
+  /* line 1479, ../sass/style.scss */
   #refine #refine_description {
     /*@include vcenter;*/
     margin-top: 10%;
@@ -1456,20 +1461,20 @@ Media Screen Size
     text-align: center;
   }
 
-  /* line 1483, ../sass/style.scss */
+  /* line 1488, ../sass/style.scss */
   #conclusion {
     background-color: #353b42;
   }
-  /* line 1485, ../sass/style.scss */
+  /* line 1490, ../sass/style.scss */
   #conclusion #conclusion {
     margin-top: 70px;
     font-size: 24px;
   }
-  /* line 1488, ../sass/style.scss */
+  /* line 1493, ../sass/style.scss */
   #conclusion #conclusion .emphasis {
     font-weight: 800;
   }
-  /* line 1492, ../sass/style.scss */
+  /* line 1497, ../sass/style.scss */
   #conclusion #interactive_prototype {
     margin-top: 70px;
   }
