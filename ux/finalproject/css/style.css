@@ -1625,19 +1625,24 @@ Begin Tablet minwidth: 800px maxwidth: 1024px
     margin-right: 50px;
     float: left;
   }
+  /* line 1671, ../sass/style.scss */
+  #survey .other_reports #other_research {
+    margin-top: 20px;
+    clear: both;
+  }
 
-  /* line 1674, ../sass/style.scss */
+  /* line 1679, ../sass/style.scss */
   .stat_container {
     margin-top: 20px;
     float: left;
   }
-  /* line 1678, ../sass/style.scss */
+  /* line 1683, ../sass/style.scss */
   .stat_container .speech_module {
     float: left;
     margin-right: 20px;
     margin-top: 20px;
   }
-  /* line 1682, ../sass/style.scss */
+  /* line 1687, ../sass/style.scss */
   .stat_container .speech_module .speech {
     color: #384466;
     position: relative;
@@ -1662,7 +1667,7 @@ Begin Tablet minwidth: 800px maxwidth: 1024px
     height: 100%;
     font-weight: bold;
   }
-  /* line 1698, ../sass/style.scss */
+  /* line 1703, ../sass/style.scss */
   .stat_container .speech_module .speech:after {
     content: ' ';
     position: absolute;
@@ -1673,27 +1678,27 @@ Begin Tablet minwidth: 800px maxwidth: 1024px
     border: 15px solid;
     border-color: #fff transparent transparent #fff;
   }
-  /* line 1710, ../sass/style.scss */
+  /* line 1715, ../sass/style.scss */
   .stat_container .speech_module .num {
     margin-top: 25px;
     margin-left: 25px;
     font-size: 45px;
     font-family: lato;
   }
-  /* line 1718, ../sass/style.scss */
+  /* line 1723, ../sass/style.scss */
   .stat_container .survey_action {
     float: left;
     margin-left: 30px;
     margin-top: 20px;
   }
 
-  /* line 1727, ../sass/style.scss */
+  /* line 1732, ../sass/style.scss */
   .survey_report_container img#deals {
     position: absolute;
     top: -220px;
     left: 100px;
   }
-  /* line 1733, ../sass/style.scss */
+  /* line 1738, ../sass/style.scss */
   .survey_report_container img#survey_report {
     margin-top: 40px;
     width: 100%;
@@ -1702,38 +1707,38 @@ Begin Tablet minwidth: 800px maxwidth: 1024px
   /******************************
    COMPETITTIVE ANALYSIS 
   *******************************/
-  /* line 1744, ../sass/style.scss */
+  /* line 1749, ../sass/style.scss */
   #competitiveanaylsis {
     background-color: #353b42;
   }
-  /* line 1746, ../sass/style.scss */
+  /* line 1751, ../sass/style.scss */
   #competitiveanaylsis .competitors img {
     width: 100%;
   }
-  /* line 1750, ../sass/style.scss */
+  /* line 1755, ../sass/style.scss */
   #competitiveanaylsis .competitor_1, #competitiveanaylsis .competitor_2 {
     margin-top: 100px;
   }
-  /* line 1756, ../sass/style.scss */
+  /* line 1761, ../sass/style.scss */
   #competitiveanaylsis #westfield_img, #competitiveanaylsis #simon_img {
     padding: 0px;
     margin-bottom: 20px;
     width: 100%;
   }
-  /* line 1761, ../sass/style.scss */
+  /* line 1766, ../sass/style.scss */
   #competitiveanaylsis .emphasis {
     font-weight: 500;
   }
-  /* line 1764, ../sass/style.scss */
+  /* line 1769, ../sass/style.scss */
   #competitiveanaylsis .description {
     padding: 0px 0px 0px 0px;
   }
-  /* line 1768, ../sass/style.scss */
+  /* line 1773, ../sass/style.scss */
   #competitiveanaylsis ul {
     padding: 0px;
     margin-top: 10px;
   }
-  /* line 1772, ../sass/style.scss */
+  /* line 1777, ../sass/style.scss */
   #competitiveanaylsis ul li {
     list-style-type: none;
     white-space: nowrap;
@@ -1751,11 +1756,11 @@ Begin Tablet minwidth: 800px maxwidth: 1024px
     text-align: left;
     white-space: pre-wrap;
   }
-  /* line 1780, ../sass/style.scss */
+  /* line 1785, ../sass/style.scss */
   #competitiveanaylsis ul li.thumbup {
     background-position: 0 0;
   }
-  /* line 1784, ../sass/style.scss */
+  /* line 1789, ../sass/style.scss */
   #competitiveanaylsis ul li.thumbdown {
     background-position: 0 -70px;
   }
@@ -1763,21 +1768,21 @@ Begin Tablet minwidth: 800px maxwidth: 1024px
   /******************************
    PERSONA
   *******************************/
-  /* line 1795, ../sass/style.scss */
+  /* line 1800, ../sass/style.scss */
   #persona {
     background-color: #57618e;
   }
-  /* line 1798, ../sass/style.scss */
+  /* line 1803, ../sass/style.scss */
   #persona .persona {
     min-height: 300px;
   }
-  /* line 1800, ../sass/style.scss */
+  /* line 1805, ../sass/style.scss */
   #persona .persona .user_quote {
     font-size: 32px;
     line-height: 40px;
     min-height: 180px;
   }
-  /* line 1807, ../sass/style.scss */
+  /* line 1812, ../sass/style.scss */
   #persona .persona .user_title {
     margin: 20px 0;
   }
@@ -1785,23 +1790,23 @@ Begin Tablet minwidth: 800px maxwidth: 1024px
   /******************************
    USER FLOW
   *******************************/
-  /* line 1818, ../sass/style.scss */
+  /* line 1823, ../sass/style.scss */
   #userflow {
     background-image: url(../images/background/userflow.jpg);
   }
-  /* line 1822, ../sass/style.scss */
+  /* line 1827, ../sass/style.scss */
   #userflow #userflow_chart img {
     width: 100%;
   }
-  /* line 1827, ../sass/style.scss */
+  /* line 1832, ../sass/style.scss */
   #userflow #scenarios, #userflow #userflow_chart {
     margin-top: 50px;
   }
-  /* line 1831, ../sass/style.scss */
+  /* line 1836, ../sass/style.scss */
   #userflow .scenario {
     margin-bottom: 50px;
   }
-  /* line 1832, ../sass/style.scss */
+  /* line 1837, ../sass/style.scss */
   #userflow .scenario.first {
     margin-top: -20px;
   }
@@ -1809,34 +1814,34 @@ Begin Tablet minwidth: 800px maxwidth: 1024px
   /******************************
    USABILITY 1
   *******************************/
-  /* line 1843, ../sass/style.scss */
+  /* line 1848, ../sass/style.scss */
   #usability_1 {
     background-image: url(../images/background/usability_1.jpg);
   }
-  /* line 1845, ../sass/style.scss */
+  /* line 1850, ../sass/style.scss */
   #usability_1 #usability_report_1 {
     background: rgba(0, 0, 0, 0.7);
     padding: 10px;
   }
-  /* line 1849, ../sass/style.scss */
+  /* line 1854, ../sass/style.scss */
   #usability_1 #usability_report_1 ul li {
     line-height: 35px;
   }
-  /* line 1853, ../sass/style.scss */
+  /* line 1858, ../sass/style.scss */
   #usability_1 #usability_report_1 #uservoice {
     margin-top: 35px;
   }
-  /* line 1855, ../sass/style.scss */
+  /* line 1860, ../sass/style.scss */
   #usability_1 #usability_report_1 #uservoice #clickme_btn {
     position: relative;
     top: -45px;
     left: -5px;
   }
-  /* line 1863, ../sass/style.scss */
+  /* line 1868, ../sass/style.scss */
   #usability_1 #sketch {
     position: absolute;
   }
-  /* line 1867, ../sass/style.scss */
+  /* line 1872, ../sass/style.scss */
   #usability_1 #sketch img {
     width: 80%;
   }
@@ -1844,11 +1849,11 @@ Begin Tablet minwidth: 800px maxwidth: 1024px
   /******************************
    WIREFRAME 1
   *******************************/
-  /* line 1879, ../sass/style.scss */
+  /* line 1884, ../sass/style.scss */
   #wireframe_1 {
     background-image: url(../images/background/wireframe_1.jpg);
   }
-  /* line 1882, ../sass/style.scss */
+  /* line 1887, ../sass/style.scss */
   #wireframe_1 #wireframe_description {
     /*@include vcenter;*/
     font-size: 60px;
@@ -1859,35 +1864,35 @@ Begin Tablet minwidth: 800px maxwidth: 1024px
   /******************************
    USABILITY 2
   *******************************/
-  /* line 1896, ../sass/style.scss */
+  /* line 1901, ../sass/style.scss */
   #usability_2 {
     background-image: url(../images/background/usability_2.jpg);
   }
-  /* line 1900, ../sass/style.scss */
+  /* line 1905, ../sass/style.scss */
   #usability_2 #founding_2 {
     margin-top: 70px;
   }
-  /* line 1902, ../sass/style.scss */
+  /* line 1907, ../sass/style.scss */
   #usability_2 #founding_2 ul li {
     line-height: 35px;
   }
-  /* line 1906, ../sass/style.scss */
+  /* line 1911, ../sass/style.scss */
   #usability_2 #founding_2 #quote {
     margin-top: 30px;
   }
-  /* line 1908, ../sass/style.scss */
+  /* line 1913, ../sass/style.scss */
   #usability_2 #founding_2 #quote p {
     font-size: 30px;
     font-weight: 500;
   }
-  /* line 1912, ../sass/style.scss */
+  /* line 1917, ../sass/style.scss */
   #usability_2 #founding_2 #quote #quote_pointer {
     display: none;
     position: relative;
     left: 160px;
     top: -30px;
   }
-  /* line 1921, ../sass/style.scss */
+  /* line 1926, ../sass/style.scss */
   #usability_2 .video {
     margin-top: 30px;
   }
@@ -1895,18 +1900,18 @@ Begin Tablet minwidth: 800px maxwidth: 1024px
   /******************************
    REFINE
   *******************************/
-  /* line 1930, ../sass/style.scss */
+  /* line 1935, ../sass/style.scss */
   #refine {
     background: url(../images/background/wireframe-lofi.jpg) no-repeat 50%, url(../images/background/wireframe_bg_dot.png) repeat;
   }
-  /* line 1936, ../sass/style.scss */
+  /* line 1941, ../sass/style.scss */
   #refine #refine_description {
     /*@include vcenter;*/
     margin-top: 150px;
     font-size: 60px;
     text-align: left;
   }
-  /* line 1942, ../sass/style.scss */
+  /* line 1947, ../sass/style.scss */
   #refine #refine_description #wireframe_download {
     margin-top: 20px;
     font-size: 30px;
@@ -1916,20 +1921,20 @@ Begin Tablet minwidth: 800px maxwidth: 1024px
   /******************************
    CONCLUSTON
   *******************************/
-  /* line 1954, ../sass/style.scss */
+  /* line 1959, ../sass/style.scss */
   #conclusion {
     background-color: #353b42;
   }
-  /* line 1956, ../sass/style.scss */
+  /* line 1961, ../sass/style.scss */
   #conclusion #conclusion {
     margin-top: 20px;
     font-size: 24px;
   }
-  /* line 1959, ../sass/style.scss */
+  /* line 1964, ../sass/style.scss */
   #conclusion #conclusion .emphasis {
     font-weight: 800;
   }
-  /* line 1963, ../sass/style.scss */
+  /* line 1968, ../sass/style.scss */
   #conclusion #interactive_prototype img {
     margin: 70px auto 70px auto;
     display: block;
