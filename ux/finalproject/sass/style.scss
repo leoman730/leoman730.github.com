@@ -111,12 +111,12 @@ $min-height: 480px;
 
     h1 {
         font-family: Lato, George;
-        font-size: 54px;
+        font-size: 30px;
     }
 
     h2 {
         font-family: Source Sans Pro, George;
-        font-size: 36px;
+        font-size: 24px;
     }
 
     .slide {
@@ -545,7 +545,7 @@ $min-height: 480px;
     #conclusion {
         background-color: #353b42;
         #conclusion {
-            margin-top: 70px;
+            margin-top: 20px;
             font-size: 24px;
             .emphasis {
                 @include emphasis;
